@@ -1,0 +1,152 @@
+10:14:08: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:14:08: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:14:08: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:14:08: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:14:46: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:14:46: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:14:46: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:14:46: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:14:50: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:14:50: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:14:50: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:14:50: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:15:10: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:15:10: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:15:10: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:15:10: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:15:15: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:15:15: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:15:15: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:15:15: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:22:36: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='58' and `type_id` is null
+10:22:36: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='58' and `type_id` is null order by id desc limit 0,100
+10:22:36: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='58' and `type_id` is null
+10:22:36: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='58' and `type_id` is null order by id desc limit 0,100
+10:22:42: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='58' and `type_id` is null
+10:22:42: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='58' and `type_id` is null order by id desc limit 0,100
+10:22:42: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='58' and `type_id` is null
+10:22:42: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='58' and `type_id` is null order by id desc limit 0,100
+10:22:49: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='58' and `type_id` is null
+10:22:49: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='58' and `type_id` is null order by id desc limit 0,100
+10:22:49: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='58' and `type_id` is null
+10:22:49: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='58' and `type_id` is null order by id desc limit 0,100
+10:22:54: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='58' and `type_id` is null
+10:22:54: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='58' and `type_id` is null order by id desc limit 0,100
+10:22:54: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='58' and `type_id` is null
+10:22:54: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='58' and `type_id` is null order by id desc limit 0,100
+10:23:22: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='58' and `type_id` is null
+10:23:22: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='58' and `type_id` is null order by id desc limit 0,100
+10:23:22: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='58' and `type_id` is null
+10:23:22: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='58' and `type_id` is null order by id desc limit 0,100
+10:27:02: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:27:02: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:27:02: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:27:02: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:27:37: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:27:37: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:27:37: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:27:37: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:27:47: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:27:47: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:27:51: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:27:51: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:27:54: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:27:54: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:30:28: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:30:28: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:30:58: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:30:58: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:30:59: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:30:59: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:31:00: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:31:00: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:31:02: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:31:02: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:31:03: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:31:03: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:35:23: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='126' and `type_id` is null
+10:35:23: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='126' and `type_id` is null order by id desc limit 0,100
+10:38:12: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='126' and `type_id` is null
+10:38:12: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='126' and `type_id` is null order by id desc limit 0,100
+10:38:22: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='121' and `type_id` is null
+10:38:22: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='121' and `type_id` is null order by id desc limit 0,100
+10:43:29: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='101' and `type_id` is null
+10:43:29: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='101' and `type_id` is null order by id desc limit 0,100
+10:44:23: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='5' and `type_id` is null
+10:44:23: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='5' and `type_id` is null order by id desc limit 0,100
+11:01:23: {
+"Ret": 400,
+"ErrMsg": "",
+"ShowVerifyCode": 0,
+"ErrCode": -4
+}
+11:01:47: {
+"Ret": 400,
+"ErrMsg": "",
+"ShowVerifyCode": 0,
+"ErrCode": -4
+}
+11:01:54: {
+"Ret": 400,
+"ErrMsg": "",
+"ShowVerifyCode": 0,
+"ErrCode": -4
+}
+11:55:00: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1145463304",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+11:55:13: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1145463304",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+12:04:48: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='129' and `type_id` is null
+12:04:48: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='129' and `type_id` is null order by id desc limit 0,100
+12:42:31: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='14' and `type_id` is null
+12:42:31: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='14' and `type_id` is null order by id desc limit 0,100
+12:50:04: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='129' and `type_id` is null
+12:50:04: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='129' and `type_id` is null order by id desc limit 0,100
+13:17:49: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='132' and `type_id` is null
+13:17:49: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='132' and `type_id` is null order by id desc limit 0,100
+13:17:59: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='132' and `type_id` is null
+13:17:59: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='132' and `type_id` is null order by id desc limit 0,100
+13:18:08: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='132' and `type_id` is null
+13:18:08: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='132' and `type_id` is null order by id desc limit 0,100
+15:04:27: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='133' and `type_id` is null
+15:04:27: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='133' and `type_id` is null order by id desc limit 0,100
+17:03:52: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='134' and `type_id` is null
+17:03:52: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='134' and `type_id` is null order by id desc limit 0,100
+17:03:59: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='135' and `type_id` is null
+17:03:59: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='135' and `type_id` is null order by id desc limit 0,100
+17:04:02: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='134' and `type_id` is null
+17:04:02: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='134' and `type_id` is null order by id desc limit 0,100
+17:05:57: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='134' and `type_id` is null
+17:05:57: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='134' and `type_id` is null order by id desc limit 0,100
+17:06:05: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='134' and `type_id` is null
+17:06:05: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='134' and `type_id` is null order by id desc limit 0,100
+17:06:07: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='134' and `type_id` is null
+17:06:07: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='134' and `type_id` is null order by id desc limit 0,100
+17:06:09: Unknown column 'type_id' in 'where clause'：select count(*) c from `360_full_view` where `wid`='134' and `type_id` is null
+17:06:09: Unknown column 'type_id' in 'where clause'：select `id`,`wid`,`uid`,`name`,`pic_qian`,`pic_hou`,`pic_zuo`,`pic_you`,`pic_shang`,`pic_xia`,`pic`,`gjz`,`ms`,`music` from `360_full_view` where `wid`='134' and `type_id` is null order by id desc limit 0,100
+21:39:16: {
+"Ret": 400,
+"ErrMsg": "",
+"ShowVerifyCode": 0,
+"ErrCode": -3
+}
+21:39:23: {
+"Ret": 400,
+"ErrMsg": "",
+"ShowVerifyCode": 0,
+"ErrCode": -3
+}
+21:39:25: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=334130223",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}

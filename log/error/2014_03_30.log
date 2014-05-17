@@ -1,0 +1,24 @@
+01:08:06: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+01:08:06: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+01:08:06: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='26' and `gjz`='1' limit 1
+01:08:06: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+01:08:06: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+01:08:06: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='26' limit 1
+14:54:08: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:54:08: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:54:08: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='16' and `gjz`='小编你好！请帮我转告老板，我是海宁微盟文化传媒有限公司负责人，我们公司专业为公司开发公众号高级功能和指导微信营销，如果觉得可以，我可以拿策划方案给你们看，可以联系我13511361998' limit 1
+14:54:08: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+14:54:08: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+14:54:08: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='16' limit 1
+19:58:06: Duplicate entry '1-67' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('67','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+19:58:06: Duplicate entry '2-67' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('67','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+19:58:06: Duplicate entry '1-66' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('66','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+21:30:57: Duplicate entry '1-69' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('69','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+21:30:57: Duplicate entry '2-69' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('69','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+21:30:57: Duplicate entry '1-68' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('68','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:19:19: Duplicate entry '1-71' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('71','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:19:19: Duplicate entry '2-71' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('71','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:19:19: Duplicate entry '1-70' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('70','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:25:00: Duplicate entry '1-73' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('73','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:25:00: Duplicate entry '2-73' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('73','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:25:00: Duplicate entry '1-72' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('72','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)

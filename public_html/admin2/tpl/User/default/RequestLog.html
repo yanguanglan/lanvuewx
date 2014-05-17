@@ -1,0 +1,32 @@
+<include file="Public:head"/>
+<link rel="stylesheet" type="text/css" href="{ai9me::RES}/css/cymain.css" />
+<div class="content">
+
+<div class="cLineB">
+  <h4>{ai9me:$infoType.name}清除访问记录 </h4><a href="javascript:history.go(-1);" class="right btnGrayS vm" style="margin-top:-27px">返回</a>
+ </div>
+     
+    <div class="msgWrap bgfc" style="margin-top:10px;">
+	  <form class="form" method="post" action=""  enctype="multipart/form-data">	 
+		<table class="userinfoArea" style=" margin:0;" border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tbody>
+				<tr>
+				  <th valign="top"><span class="red">*</span>当前记录数：</th>
+				  <td>
+					<span>{ai9me:$logCount}</span></td>
+				</tr>
+				
+				
+				<th>&nbsp;</th>
+					<td>
+						<button type="submit" name="button" class="btnGreen">清除</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+  </div> 
+ 
+  
+        </div>
+<include file="Public:footer"/>

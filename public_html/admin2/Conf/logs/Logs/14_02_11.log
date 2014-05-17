@@ -1,0 +1,311 @@
+[ 2014-02-11T14:21:53+08:00 ] 183.146.35.13 /admin2/index.php?g=User&m=Product&a=index&dining=1&wxgjuid=6&wxgjpwd=fffa37756ed0b0dfabd02629534a235a&token=6
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [2] Cannot use a scalar value as an array /alidata/www/wei/wx/public_html/admin2/Lib/Core/Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.000848s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=index&dining=1&wxgjuid=6&wxgjpwd=fffa37756ed0b0dfabd02629534a235a&token=6 HTTP/1.1\r\n','','183.146.35.13',null) [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.000760s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `username` = '6' ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.000757s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: UPDATE `ai9me_users` SET `lasttime`=1392099713,`lastip`='183.146.35.13' WHERE ( `id` = 3 ) [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.000475s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.000543s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.000666s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = '6' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.000511s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '6' ) LIMIT 1   [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index:  catid /alidata/www/wei/wx/public_html/admin2/AI9ME/Lib/Action/User/ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.000548s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '6' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '6' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.000090s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026302s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000403s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014427s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041266s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041637s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042054s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2014-02-11T14:33:20+08:00 ] 183.146.35.13 /admin2/index.php?g=User&m=Product&a=tables&token=6&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [2] Cannot use a scalar value as an array /alidata/www/wei/wx/public_html/admin2/Lib/Core/Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.000779s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=tables&token=6&dining=1 HTTP/1.1\r\n','','183.146.35.13','3') [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index:  wxgjuid /alidata/www/wei/wx/public_html/admin2/AI9ME/Lib/Action/UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd /alidata/www/wei/wx/public_html/admin2/AI9ME/Lib/Action/UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.000742s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.000616s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.000688s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = '6' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.000423s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '6' ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_diningtable` [ RunTime:0.000593s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product_diningtable` WHERE ( `token` = '6' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT * FROM `ai9me_product_diningtable` WHERE ( `token` = '6' ) ORDER BY taxis ASC LIMIT 0,20   [ RunTime:0.000249s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.029781s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028748s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.059095s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.059488s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.059950s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.060192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001579s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.060773s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2014-02-11T14:58:42+08:00 ] 183.146.35.13 /admin2/index.php?g=Wap&m=Product&a=index&wxid=oiRmduG2uJZ8dDzeDlmUPD7mjox0&wid=6
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.000503s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '6' ) LIMIT 1   [ RunTime:0.000134s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015672s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000416s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 20 行.
+NOTIC: [8] Undefined index:  wecha_id /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 20 行.
+NOTIC: [8] Undefined index:  token /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 25 行.
+NOTIC: [8] Undefined index:  wecha_id /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 25 行.
+NOTIC: [8] Undefined index:  token /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 30 行.
+NOTIC: [8] Undefined index:  wecha_id /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 30 行.
+NOTIC: [8] Undefined index:  token /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 36 行.
+NOTIC: [8] Undefined index:  wecha_id /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 36 行.
+NOTIC: [8] Undefined index:  token /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 47 行.
+NOTIC: [8] Undefined index:  wecha_id /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 47 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/76e393a1b5f0be5eda998ae0d000f726.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016145s ]
+INFO: [ view_parse ] --END-- [ RunTime:4.052943s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-4.069158s ]
+INFO: Run TokenBuild Behavior [ RunTime:-4.069501s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-4.069902s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-4.070130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-4.070693s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2014-02-11T14:58:46+08:00 ] 183.146.35.13 /admin2/index.php?g=Wap&m=Product&a=cats&token=6&wecha_id=oiRmduG2uJZ8dDzeDlmUPD7mjox0
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.000465s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '6' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.000248s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015018s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000423s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032206s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.047786s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.048163s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048577s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001524s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.049405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2014-02-11T14:58:48+08:00 ] 183.146.35.13 /admin2/index.php?g=Wap&m=Product&a=cats&token=6&wecha_id=oiRmduG2uJZ8dDzeDlmUPD7mjox0
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.000942s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '6' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.000162s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020420s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.020922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016395s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037471s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038135s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038735s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002588s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.040238s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2014-02-11T14:58:54+08:00 ] 183.146.35.13 /admin2/index.php?g=Wap&m=Product&a=cats&
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.000561s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = null ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.000241s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.014895s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined index:  wecha_id /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined index:  token /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined index:  wecha_id /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined index:  token /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined index:  wecha_id /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined index:  token /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined index:  wecha_id /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined index:  token /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined index:  wecha_id /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: isDining /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid /alidata/www/wei/wx/public_html/admin2/Conf/logs/Cache/Wap/fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012289s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027785s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028198s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.028606s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.028870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001715s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029675s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2014-02-11T15:36:51+08:00 ] 183.146.35.13 /admin2/index.php?g=User&m=Product&a=index&dining=1&wxgjuid=13&wxgjpwd=fffa37756ed0b0dfabd02629534a235a&token=13
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [2] Cannot use a scalar value as an array /alidata/www/wei/wx/public_html/admin2/Lib/Core/Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.000767s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=index&dining=1&wxgjuid=13&wxgjpwd=fffa37756ed0b0dfabd02629534a235a&token=13 HTTP/1.1\r\n','','183.146.35.13',null) [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.000808s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `username` = '13' ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.000526s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: INSERT INTO `ai9me_users` (`money`,`gid`,`username`,`password`,`createtime`,`lasttime`,`status`,`viptime`) VALUES (100000,7,'13','fffa37756ed0b0dfabd02629534a235a',1392104210,1392104210,1,'1809964800') [ RunTime:0.000219s ]
+NOTIC: [8] Undefined index:  username /alidata/www/wei/wx/public_html/admin2/AI9ME/Lib/Action/UserAction.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.001070s ]
+SQL: INSERT INTO `ai9me_wxuser` (`wxname`,`wxid`,`weixin`,`headerpic`,`token`,`uid`,`tpltypeid`,`tpllistid`,`tplcontentid`,`tpltypename`,`tpllistname`,`tplcontentname`,`createtime`) VALUES ('13','13','13','./tpl/User/default/common/images/portrait.jpg','13',5,'1','1','1','ty_index','yl_list','ktv_content',1392104210) [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.000422s ]
+SQL: INSERT INTO `ai9me_token_open` (`uid`,`token`,`queryname`) VALUES (5,'13','tianqi,qiushi,jishuan,langdu,jiankang,kuaidi,xiaohua,changtoushi,peiliao,liaotian,mengjian,yuyinfanyi,huoche,gongjiao,shenfenzheng,shouji,yinle,fujin,choujiang,taobao,userinfo,fanyi,api,suanming,baike,caipiao,choujiang,gua2,shouye,adma,huiyuanka,shenhe,geci,host_kev,diyform,shop,etuan,diymen_set,dx') [ RunTime:0.000192s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `username` = '13' ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.000476s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000079s ]
+SQL: UPDATE `ai9me_users` SET `lasttime`=1392104210,`lastip`='183.146.35.13' WHERE ( `id` = 5 ) [ RunTime:0.000190s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.000562s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.000674s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = '13' ) AND ( `uid` = 5 ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.000893s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '13' ) LIMIT 1   [ RunTime:0.000347s ]
+NOTIC: [8] Undefined index:  catid /alidata/www/wei/wx/public_html/admin2/AI9ME/Lib/Action/User/ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.000678s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '13' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '13' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.000280s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040378s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.041010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013961s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055040s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055514s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.055953s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001657s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.056779s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2014-02-11T17:41:34+08:00 ] 111.174.197.233 /admin2/index.php?g=User&m=Product&a=index&dining=1&wxgjuid=15&wxgjpwd=324d1907d9ca6733d399b87affe48c74&token=15
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+NOTIC: [2] Cannot use a scalar value as an array /alidata/www/wei/wx/public_html/admin2/Lib/Core/Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.000728s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=index&dining=1&wxgjuid=15&wxgjpwd=324d1907d9ca6733d399b87affe48c74&token=15 HTTP/1.1\r\n','','111.174.197.233',null) [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.000696s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `username` = '15' ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.001492s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: INSERT INTO `ai9me_users` (`money`,`gid`,`username`,`password`,`createtime`,`lasttime`,`status`,`viptime`) VALUES (100000,7,'15','324d1907d9ca6733d399b87affe48c74',1392111694,1392111694,1,'1809964800') [ RunTime:0.000542s ]
+NOTIC: [8] Undefined index:  username /alidata/www/wei/wx/public_html/admin2/AI9ME/Lib/Action/UserAction.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.001801s ]
+SQL: INSERT INTO `ai9me_wxuser` (`wxname`,`wxid`,`weixin`,`headerpic`,`token`,`uid`,`tpltypeid`,`tpllistid`,`tplcontentid`,`tpltypename`,`tpllistname`,`tplcontentname`,`createtime`) VALUES ('15','15','15','./tpl/User/default/common/images/portrait.jpg','15',6,'1','1','1','ty_index','yl_list','ktv_content',1392111694) [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.000571s ]
+SQL: INSERT INTO `ai9me_token_open` (`uid`,`token`,`queryname`) VALUES (6,'15','tianqi,qiushi,jishuan,langdu,jiankang,kuaidi,xiaohua,changtoushi,peiliao,liaotian,mengjian,yuyinfanyi,huoche,gongjiao,shenfenzheng,shouji,yinle,fujin,choujiang,taobao,userinfo,fanyi,api,suanming,baike,caipiao,choujiang,gua2,shouye,adma,huiyuanka,shenhe,geci,host_kev,diyform,shop,etuan,diymen_set,dx') [ RunTime:0.000192s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `username` = '15' ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.000521s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: UPDATE `ai9me_users` SET `lasttime`=1392111694,`lastip`='111.174.197.233' WHERE ( `id` = 6 ) [ RunTime:0.000347s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.000772s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.000783s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = '15' ) AND ( `uid` = 6 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.000422s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '15' ) LIMIT 1   [ RunTime:0.000197s ]
+NOTIC: [8] Undefined index:  catid /alidata/www/wei/wx/public_html/admin2/AI9ME/Lib/Action/User/ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.000455s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '15' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '15' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.000239s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.038454s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.038935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012821s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.051829s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052220s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.052632s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001517s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.053434s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000635s ]
+

@@ -1,0 +1,99 @@
+/* CSS Document */
+* { margin: 0; padding: 0; }
+body {background-color: #dbdbdb;margin: 0;background:url(../images/bei_bg.jpg) repeat;font-size: 12px; line-height: 18px;}	
+*{margin: 0 0 0 0;padding: 0 0 0 0;border: none;text-decoration: none;list-style: none;-webkit-user-select: none;  -moz-user-select: none;-ms-user-select: none;-khtml-user-select: none;user-select: none;cursor:default;font-size: 14px;font-family: 'Microsoft Yahei';outline: none;-webkit-tap-highlight-color:rgba(255,0,0,0);}
+a { text-decoration: none; }
+h2, h3 { margin: 0 0 20px; text-shadow: 2px 2px #fff; }
+h2 { font-size: 28px; }
+h3 { font-size: 22px; }
+pre { background: #fff; width: 460px; padding: 10px 20px; border-left: 5px solid #ccc; margin: 0 0 20px; }
+p { width: 500px; font-size: 18px; line-height: 24px; margin: 0 0 30px; }
+	
+/*登录*/
+.fr {float: right;color: #5da028;text-decoration: none;}
+.demo {margin: 0 auto;width: 90%;text-align:center;}
+.login-control {color: #636363;padding: 20px;line-height: 60px;	transition: all 300ms;font-family: 'Devonshire', cursive;}
+.login-control h2 {color: #191919;font-size:2.0em;font-family:"微软雅黑", "宋体";font-weight: normal;line-height: 50px;text-align: center;}
+.login-control input[type="text"],.login-control input[type="password"] {width: 100%;height: 46px;font-size: 1.2em;padding: 0 8px;border: none;box-sizing: border-box;transition: all 300ms;border:1px solid #bdbbbb;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 0.05);}
+/* input:focus {outline: 0 none;box-shadow: 0 0 0 5px #1ba6fc;}*/
+input:focus {outline: 0 none;box-shadow:none;border:none;}
+.form-item-3 {text-align: left;line-height: 20px;font-size:1.1em;margin-bottom: 20px;}
+.login-control input[type='checkbox'] {vertical-align: middle;margin-right: 5px;}
+.login-control .button {color: #fff;width: 100%;height:54px;border: none;cursor: pointer;transition: all 300ms;font-size:1.6em;font-family:"微软雅黑", "宋体";margin-bottom: 20px;background: -webkit-gradient(linear,left top,left bottom,from(#f2c755), to(#ee8820));border-radius:8px;border:1px solid #cf9227;}
+.login-control .button:hover {background: -webkit-gradient(linear,left top,left bottom,from(#f08a1e), to(#f3cb52));border-radius:8px;}
+.login-control .button1 {color: #fff;width: 100%;height:50px;border: none;cursor: pointer;transition: all 300ms;font-size:1.6em;font-family:"微软雅黑", "宋体";margin-bottom: 20px;background: -webkit-gradient(linear,left top,left bottom,from(#a5e555), to(#5eaa33));border-radius:8px;border:1px solid #589f2f;text-align:center;}
+.login-control .button1:hover {background: -webkit-gradient(linear,left top,left bottom,from(#5eaa33), to(#a5e555));border-radius:8px;}
+
+/*注册浮动层*/
+.black_overlay{display: none;  position: absolute;top: 0%;left: 0%;width:100%;height: 100%;background-color: black;z-index:1001;-moz-opacity: 0.8;  opacity:.80;  filter: alpha(opacity=80);}  
+.white_content {  display: none; position: absolute;  top: 0%;  left: 0%;  width: 100%;  height: 100%;  z-index:1002;  overflow: auto;  background: url(../images/bei_bg.jpg) repeat;}  
+.pla_fd_content {width: 100%;  overflow:hidden; float:left; background:url(../images/pint_bg03.gif) 0px -114px no-repeat;}
+.pla_fd_content1 {height:6px; overflow:hidden; float:left; background:url(../images/pint_bg03.gif) 0px -124px no-repeat;}
+.pla_fd_content2 {width: 100%; float:left;    }
+.plafc_title {width: 100%; height:60px;  background:url(../images/s.gif) repeat-x; color:#124c98; line-height:30px; font-weight:bold; font-size:14px; float:left;}
+.plafc_title a{ float:right;width:20%; height:60px;}
+.plafc_title img{ float:right;width:30px; height:30px; padding-right: 12px; padding-top:10px;}
+.bgico img{width: 200px; height: 200px;}
+.plafc_content {width: 100%;float:left; }
+.plafc_content .p1 {float:left;color: #585656;font-size: 15px;font-weight:bold;width: 90%;  text-align:center;   display:inline; padding: 5%;margin: 0 auto;}
+
+/*通讯录*/
+.slider { width: 100%; height: 100%; display: block; position: relative; background: #fff; overflow: hidden; margin: 0 auto;}
+.slider ul { list-style: none; }
+.slider-content { float: left; width: 100%; display: block; overflow: auto; min-height: 250px; }
+.slider-content ul { float: left; width: 100%; display: block; position: relative; }
+.slider-content ul li { float: left; width: 100%;margin: 0px;}
+.slider-content ul ul li a { padding: 10px 10px; height: 50px;display: block;border-bottom: 1px solid #d7d7d7; text-transform: capitalize; }
+.slider-content ul ul li a:hover {background: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8), to(#e8e8e8));}
+.slider-content .title { padding: 5px 0;font-size: 16px;text-indent: 10px; background: #bbb; color: #fff; width: 100%; float: left; font-weight: bold; text-transform: uppercase; font-family:Arial, Helvetica, sans-serif;}
+.slider-content .selected .title { background: #666; }
+.slider .slider-nav { position: absolute; right: 0; top: 0; background: #666; min-height: 250px;z-index:21;}
+/*.slider .slider-nav ul { padding: 5px 0; }*/
+.slider .slider-nav li a { padding:1px 5px; line-height: 13px; text-align: center; color: #fff; font-weight: bold; display: block; text-transform: uppercase; cursor: pointer;}
+.slider #debug { position: absolute; bottom: 0; left: 0; padding: 5px; background: #000; color: #fff; }
+.slider .arrow { font-size: 0px; line-height: 18px; width: 0px; border-bottom: 8px solid #fff; border-left: 5px solid #333; border-right: 5px solid #333; position: relative; top: 5px; }
+.slider .down { border-bottom: none; border-top: 8px solid #fff; top: 15px; }
+.slider .slide-up, .slider .slide-down { height:36px; background: #333; text-align: center; cursor: pointer; float: right; width: 100%; position: relative; }
+.mail_ul li{margin:10px 5px;}
+.mail-img{float:left;width:50px;height:50px; overflow:hidden;}
+.mail-name{float:left;margin-left:10px;line-height: 22px;margin-top: 5px;}
+.mailname1{float:left;width:100%; color:#141414; font-size: 1.2em; font-family:"微软雅黑", "宋体";}
+.mailname2{float:left;width:100%; color:#747474;font-size: 0.9em; font-family:"微软雅黑",Arial;}
+.mail-tel{float:right; margin-right:20px;margin-top:12px;}
+.mail-tel img{float:left;width:30px;height:30px;border-radius:50px;box-shadow: 0 0 8px rgba(92, 255, 0, 0.8);}
+
+/*个人信息*/
+.mailtel{width:100%; margin:0 auto;}
+.mailtel_01{width:100%;height: 70px;background: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8), to(#e8e8e8));border-bottom: 1px solid #BDBABA;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset, 0 0px 0 rgba(255, 255, 255, 0.05);overflow: hidden;}
+.mailtel-img{float:left;width: 50px;height: 50px; overflow:hidden;margin:10px 5px 8px 15px;}
+.mailtel-name{float:left;margin-left:5px;line-height: 22px;margin-top: 10px;}
+.mailTname1{float:left;width:100%; color:#141414; font-size: 1.3em; font-family:"微软雅黑", "宋体";}
+.mailTname2{float:left;width:100%; color:#747474;font-size: 1.1em; font-family:"微软雅黑",Arial;}
+.mailtel-tel{width:100%;height: 30px;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset, 0 0px 0 rgba(255, 255, 255, 0.05);border-bottom: 1px solid #CECBCB;}
+.mailtel-tel span{float: left;width:50%; padding-left: 15px;line-height: 34px;color:#5a972e; font-size: 1.2em; font-family:"微软雅黑", "宋体";}
+.mailtelTEL{width:100%;height: 46px;background: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8), to(#e8e8e8));border-bottom: 1px solid #CECBCB;}
+.mailtelTEL a{float: left;width:100%;height: 44px;}
+.mailTELname2{float:left;width:100%; color:#535353;font-size: 14px; font-family:"微软雅黑",Arial; margin-left: 8px;}
+.mail_tel{float:right; margin-right:20px;margin-top: 5px;}
+.mail_tel img{float:left;width:30px;height:30px;border-radius:50px;box-shadow: 0 0 8px rgba(92, 255, 0, 0.8);}
+.mail_mailbox{float:right; margin-right:20px;margin-top:10px;}
+.mail_mailbox img{float:left;width:11px;height:19px;opacity:0.6;filter:alpha(opacity=60);}
+
+/*通讯录浮动层*/
+.plafc_title-tel{width: 100%; height: 75px;  background:url(../images/s.gif) repeat-x; color:#124c98; line-height:30px; font-weight:bold; font-size:14px; float:left;}
+.plafc_title-tel a{ float:right;width:20%; height:60px;}
+.plafc_title-tel img{ float:right;width:30px; height:30px; padding-right: 12px; padding-top:10px;}
+.plafc_title-tel .bgico img{width: 200px; height: 200px;}
+
+/*申请表下载*/
+.table-download{margin:0 auto;width:90%;}
+.table-download a{float:left;width:100%; height: 46px; overflow:hidden;}
+.table-download .button2 {color: #fff;width: 100%;height: 46px;border: none;cursor: pointer;transition: all 300ms;font-size: 1.3em;font-family:"微软雅黑", "宋体";margin-bottom: 20px;background: -webkit-gradient(linear,left top,left bottom,from(#a5e555), to(#5eaa33));border-radius:8px;border:1px solid #589f2f;text-align:center;}
+.table-download .button2:hover {background: -webkit-gradient(linear,left top,left bottom,from(#5eaa33), to(#a5e555));border-radius:8px;}
+
+/*中国民生银行烟台吉商城市商业合作社章程*/
+.zxrh-download{margin:0 auto;width:100%;}
+.zxrh-download a{float:left;width:100%; height: 32px; overflow:hidden;margin-bottom: 5px;}
+.zxrh-download .button2 {float: left;color: #fff;width: 100%;height: 32px;border: none;overflow: hidden;cursor: pointer;transition: all 300ms;font-size: 1.1em;font-family:"微软雅黑", "宋体";background: -webkit-gradient(linear,left top,left bottom,from(#a5e555), to(#5eaa33));border-radius:8px;border:1px solid #589f2f;text-align:center;}
+.zxrh-download .button2:hover {background: -webkit-gradient(linear,left top,left bottom,from(#5eaa33), to(#a5e555));border-radius:8px;}
+

@@ -1,0 +1,379 @@
+00:00:27: Duplicate entry '1-46' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('46','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+00:00:27: Duplicate entry '2-46' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('46','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+00:00:27: Duplicate entry '1-45' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('45','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+01:14:21: Duplicate entry '1-48' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('48','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+01:14:21: Duplicate entry '2-48' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('48','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+01:14:21: Duplicate entry '1-47' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('47','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+01:15:08: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1775173686",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+01:17:59: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1775173686",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+02:31:28: Column 'dhtid' cannot be null：insert into `wxwebdh` (`wid`,`dhtid`,`status`,`tel`,`daohang`,`home`,`liuyan`,`about`,`dhtext`,`dhstatus`) values ('15',null,'0',null,null,null,null,null,'var urls = [\\\'/res/wz/images/flash1.png\\\']','1')
+10:17:43: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+10:17:43: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+10:17:43: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='16' and `gjz`='#婚礼#我们结婚了' limit 1
+10:17:43: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+10:17:43: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+10:17:43: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='16' limit 1
+10:18:37: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+10:18:37: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+10:18:37: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='16' and `gjz`='我叫小衷' limit 1
+10:18:37: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+10:18:37: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+10:18:37: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='16' limit 1
+11:18:35: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1829629423",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+11:20:11: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:20:11: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:20:11: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='微官网' limit 1
+11:20:11: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:20:11: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:20:11: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+11:20:30: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:20:30: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:20:30: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='点菜' limit 1
+11:21:13: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:21:13: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:21:13: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='上墙' limit 1
+11:21:13: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:21:13: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:21:13: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+11:21:41: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:21:41: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:21:41: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='我叫李云飞' limit 1
+11:21:41: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:21:41: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:21:41: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+11:21:48: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:21:48: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:21:48: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='上墙' limit 1
+11:21:48: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:21:48: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:21:48: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+11:22:31: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:22:31: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:22:31: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='上墙  我爱你付瑜' limit 1
+11:22:31: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:22:31: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:22:31: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+11:28:20: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:28:20: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:28:20: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='#投票#' limit 1
+11:28:20: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:28:20: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:28:20: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+11:31:27: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:31:27: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:31:27: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='#上墙#我好爱你' limit 1
+11:31:27: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:31:27: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:31:27: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+11:32:11: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:32:11: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:32:11: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='上墙我' limit 1
+11:32:11: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:32:11: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:32:11: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+11:32:24: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:32:24: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:32:24: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='#上墙我并' limit 1
+11:32:24: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:32:24: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:32:24: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+11:32:39: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:32:39: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+11:32:39: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='上墙你' limit 1
+11:32:39: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:32:39: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+11:32:39: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+13:19:37: Table 'taobao.heka' doesn't exist：show full fields from `heka`
+13:19:37: Table 'taobao.heka' doesn't exist：show full fields from `heka`
+13:19:37: Table 'taobao.heka' doesn't exist：show full fields from `heka`
+13:19:37: Table 'taobao.heka' doesn't exist：insert into `heka` () values ()
+13:19:37: Table 'taobao.heka' doesn't exist：show full fields from `heka`
+13:19:37: Table 'taobao.heka' doesn't exist：show full fields from `heka`
+13:19:37: Table 'taobao.heka' doesn't exist：select `` from `heka` where `id`='' limit 1
+13:23:09: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:23:09: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:23:09: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='你好' limit 1
+13:23:09: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+13:23:09: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+13:23:09: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+13:23:19: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:23:19: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:23:19: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='24' and `gjz`='李云飞' limit 1
+13:23:19: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+13:23:19: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+13:23:19: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='24' limit 1
+13:43:46: Column 'dhtid' cannot be null：insert into `wxwebdh` (`wid`,`dhtid`,`status`,`tel`,`daohang`,`home`,`liuyan`,`about`,`dhtext`,`dhstatus`) values ('15',null,'1','13154778448','http://api.map.baidu.com/geocoder?address=深圳罗湖金光华广场&output=html&src=yourComp anyName|yourAppName','http://api.map.baidu.com','http://api.map.baidu.com','http://api.map.baidu.com','var urls = [\\\'/res/wz/images/flash8.png\\\']','1')
+13:43:56: Column 'dhtid' cannot be null：insert into `wxwebdh` (`wid`,`dhtid`,`status`,`tel`,`daohang`,`home`,`liuyan`,`about`,`dhtext`,`dhstatus`) values ('15',null,'1','13154778448','http://api.map.baidu.com/geocoder?address=深圳罗湖金光华广场&output=html&src=yourComp anyName|yourAppName','http://api.map.baidu.com','http://api.map.baidu.com','http://api.map.baidu.com','var urls = new Array();urls.push(\\\'/res/wz/images/v57_snow1.png\\\');urls.push(\\\'/res/wz/images/v57_snow2.png\\\');urls.push(\\\'/res/wz/images/v57_snow3.png\\\');urls.push(\\\'/res/wz/images/v57_snow4.png\\\');','1')
+14:32:38: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=573624666",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+14:51:23: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:51:23: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:51:23: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='音乐盒' limit 1
+14:51:23: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+14:51:23: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+14:51:23: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+14:52:44: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:52:44: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:52:44: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='音乐盒' limit 1
+14:52:44: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+14:52:44: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+14:52:44: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+14:54:37: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:54:37: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:54:37: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='阿什顿' limit 1
+14:56:05: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:56:05: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:56:05: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='音乐合' limit 1
+14:56:05: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+14:56:05: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+14:56:05: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+14:56:27: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:56:27: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:56:27: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='音乐盒' limit 1
+14:56:27: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+14:56:27: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+14:56:27: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+15:05:32: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+15:05:32: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+15:05:32: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='音乐合' limit 1
+15:05:32: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+15:05:32: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+15:05:32: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+15:05:48: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+15:05:48: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+15:05:48: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='音乐' limit 1
+15:16:36: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=573624666",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+15:24:52: Duplicate entry '1-51' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('51','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+15:24:52: Duplicate entry '2-51' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('51','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+15:24:52: Duplicate entry '1-50' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('50','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+15:55:45: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+15:55:45: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+15:55:45: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='音乐' limit 1
+16:10:14: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+16:10:14: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+16:10:14: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='微留言' limit 1
+16:10:14: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+16:10:14: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+16:10:14: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+16:10:19: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+16:10:19: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+16:10:19: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='微留言' limit 1
+16:10:19: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+16:10:19: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+16:10:19: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+16:10:48: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+16:10:48: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+16:10:48: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='留言' limit 1
+16:10:48: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+16:10:48: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+16:10:48: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+16:12:07: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+16:12:07: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+16:12:07: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='微留言' limit 1
+16:12:07: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+16:12:07: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+16:12:07: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+16:13:18: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+16:13:18: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+16:13:18: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='11' limit 1
+16:13:18: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+16:13:18: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+16:13:18: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+21:02:36: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1866422679",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:05:22: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1866422679",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:05:23: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1866422679",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:05:24: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1866422679",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:05:25: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1866422679",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:05:26: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1866422679",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:05:28: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1866422679",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:05:29: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1866422679",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:05:30: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1866422679",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:05:31: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1866422679",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:05:32: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1866422679",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:08:28: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:08:28: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:08:28: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='首页' limit 1
+21:08:39: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:08:39: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:08:39: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='北京天气' limit 1
+21:08:39: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+21:08:39: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+21:08:39: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+21:08:54: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:08:54: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:08:54: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='通州天气' limit 1
+21:08:54: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+21:08:54: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+21:08:54: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+21:09:08: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:09:08: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:09:08: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='通州天气' limit 1
+21:09:08: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+21:09:08: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+21:09:08: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+21:22:27: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:22:27: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:22:27: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='预约' limit 1
+21:32:04: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:32:04: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:32:04: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='笑话' limit 1
+21:32:04: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+21:32:04: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+21:32:04: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+21:37:21: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:37:21: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+21:37:21: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='试驾' limit 1
+22:09:59: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+22:09:59: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+22:09:59: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='首页' limit 1
+22:10:25: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+22:10:25: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+22:10:25: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='首页' limit 1
+23:12:34: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1025526879",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+23:17:30: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1025526879",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+23:19:33: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:19:33: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:19:33: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='11' limit 1
+23:41:07: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:41:07: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:41:07: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='11' limit 1
+23:42:55: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:42:55: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:42:55: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='德克士' limit 1
+23:42:55: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:42:55: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:42:55: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+23:43:42: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:43:42: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:43:42: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='德克士优惠' limit 1
+23:43:42: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:43:42: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:43:42: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+23:44:17: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:44:17: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:44:17: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='优惠卷' limit 1
+23:44:17: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:44:17: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:44:17: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+23:44:46: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:44:46: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:44:46: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='德克士优惠卷' limit 1
+23:44:46: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:44:46: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:44:46: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+23:47:46: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:47:46: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:47:46: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='首页' limit 1
+23:47:52: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:47:52: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:47:52: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='首页' limit 1
+23:50:13: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:50:13: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:50:13: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='d' limit 1
+23:50:13: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:50:13: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:50:13: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+23:50:25: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:50:25: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:50:25: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='首页' limit 1
+23:50:26: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:50:26: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:50:26: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='肯德基' limit 1
+23:50:26: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:50:26: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:50:26: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1
+23:51:25: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:51:25: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+23:51:25: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='优惠卷呢' limit 1
+23:51:25: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:51:25: Table 'taobao.micro_yyy_keyword' doesn't exist：show full fields from `micro_yyy_keyword`
+23:51:25: Table 'taobao.micro_yyy_keyword' doesn't exist：select `` from `micro_yyy_keyword` where `wid`='15' limit 1

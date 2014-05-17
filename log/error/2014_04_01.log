@@ -1,0 +1,69 @@
+00:28:41: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=259166744",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+12:44:03: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=88456132",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+12:50:46: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+12:50:46: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+12:50:46: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='预约' limit 1
+12:52:35: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+12:52:35: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+12:52:35: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='点餐' limit 1
+12:55:02: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+12:55:02: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+12:55:02: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='首页' limit 1
+13:00:25: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:00:25: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:00:25: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='我来' limit 1
+13:07:18: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:07:18: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:07:18: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='我来' limit 1
+13:10:36: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:10:36: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:10:36: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='我来' limit 1
+13:38:29: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=863271631",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+13:46:58: Duplicate entry '1-79' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('79','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+13:46:58: Duplicate entry '2-79' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('79','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+13:46:58: Duplicate entry '1-78' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('78','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+14:00:39: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:00:39: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:00:39: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='你好' limit 1
+14:00:47: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:00:47: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:00:47: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='为什么呢' limit 1
+14:00:55: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:00:55: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:00:55: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='不会吧？' limit 1
+14:00:59: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:00:59: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:00:59: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='成都' limit 1
+14:25:00: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:25:00: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:25:00: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='汽车' limit 1
+14:40:57: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:40:57: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+14:40:57: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='15' and `gjz`='首页' limit 1
+14:47:40: Duplicate entry '1-81' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('81','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+14:47:40: Duplicate entry '2-81' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('81','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+14:47:40: Duplicate entry '1-80' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('80','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+14:47:55: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=502412315",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+14:58:36: Duplicate entry '1-83' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('83','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+14:58:36: Duplicate entry '2-83' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('83','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+14:58:36: Duplicate entry '1-82' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('82','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)

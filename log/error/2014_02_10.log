@@ -1,0 +1,27 @@
+09:44:25: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=2032185103",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+09:50:02: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=2032185103",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+13:06:13: Duplicate entry '' for key 'user_un'：insert into `user` (`logtimes`,`level_id`,`next_level_id`,`agid`,`cwid`,`kfid`,`isstop`,`ygid`,`isdirect`,`isfromnet`,`pid`,`xiane`,`surplus_sms`,`ispwdcg`,`mendtime`) values ('0','1','1','0','11','0','0','0','1','1','0','1','0','1',null)
+16:07:22: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1794772910",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+19:46:52: Table 'weipin.micro_jiaoyu_set' doesn't exist：show full fields from `micro_jiaoyu_set`
+19:46:52: Table 'weipin.micro_jiaoyu_set' doesn't exist：show full fields from `micro_jiaoyu_set`
+19:46:52: Table 'weipin.micro_jiaoyu_set' doesn't exist：select `` from `micro_jiaoyu_set` where `wid`='6' limit 1
+22:10:35: Table 'weipin.newyy' doesn't exist：show full fields from `newyy`
+22:10:35: Table 'weipin.newyy' doesn't exist：show full fields from `newyy`
+22:10:35: Table 'weipin.newyy' doesn't exist：select `` from `newyy` where `wid`='6' order by id
+22:10:38: Table 'weipin.newyy' doesn't exist：show full fields from `newyy`
+22:10:38: Table 'weipin.newyy' doesn't exist：show full fields from `newyy`

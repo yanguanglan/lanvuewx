@@ -1,0 +1,38 @@
+[ 2014-04-01T00:23:43+08:00 ] 115.227.108.134 /admin2/index.php?g=User&m=Shake&a=index&wxgjuid=160&wxgjpwd=492be47ff4ba4316ceb36bca752069fb&token=154
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of ShakeAction::insert() should be compatible with that of BaseAction::insert() D:\weixin\wx\public_html\admin2\zhifeng\Lib\Action\User\ShakeAction.class.php 第 5 行.
+NOTIC: [2048] Declaration of ShakeAction::show() should be compatible with that of Action::show() D:\weixin\wx\public_html\admin2\zhifeng\Lib\Action\User\ShakeAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `zfwx_users` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `zfwx_users` WHERE ( `username` = '160' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zfwx_user_group` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zfwx_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `zfwx_users` SET `activitynum`=0 WHERE ( `id` = 252 ) [ RunTime:0.000000s ]
+SQL: UPDATE `zfwx_users` SET `lasttime`=1396283023,`lastip`='115.227.108.134' WHERE ( `id` = 252 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zfwx_user_group` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zfwx_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zfwx_users` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zfwx_users` WHERE ( `id` = 252 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zfwx_wxuser` [ RunTime:0.000000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `zfwx_wxuser` WHERE ( `token` = '154' ) AND ( `uid` = 252 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zfwx_shake` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zfwx_shake` WHERE ( `token` = '154' ) AND ( `isopen` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zfwx_shake` WHERE ( `token` = '154' ) AND ( `isopen` = 2 ) ORDER BY createtime desc LIMIT 0,25   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zfwx_shake` WHERE ( `token` = '154' ) AND ( `isopen` <> 2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.062500s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.062500s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062500s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.078125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.078125s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+

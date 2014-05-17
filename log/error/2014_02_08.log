@@ -1,0 +1,12 @@
+23:41:29: Duplicate entry '1-6' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('6','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+23:41:29: Duplicate entry '2-6' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('6','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+23:41:29: Duplicate entry '1-5' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('5','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+23:44:02: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+23:44:02: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+23:44:02: Table 'weipin.micro_hk' doesn't exist：select `` from `micro_hk` where `wid`='3' limit 1
+23:44:18: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+23:44:18: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+23:44:18: Table 'weipin.micro_hk' doesn't exist：select `` from `micro_hk` where `wid`='3' limit 1
+23:48:02: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+23:48:02: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+23:48:02: Table 'weipin.micro_hk' doesn't exist：select `` from `micro_hk` where `wid`='3' limit 1

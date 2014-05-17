@@ -1,0 +1,57 @@
+00:25:27: Duplicate entry '1-95' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('95','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+00:25:27: Duplicate entry '2-95' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('95','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+00:25:27: Duplicate entry '1-94' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('94','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+00:28:22: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+00:28:22: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+00:28:22: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='47' and `gjz`='w' limit 1
+00:32:09: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+00:32:09: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+00:32:09: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='47' and `gjz`='y' limit 1
+10:04:19: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+10:04:19: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+10:04:19: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='45' and `gjz`='关于色彩' limit 1
+10:04:31: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+10:04:31: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+10:04:31: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='45' and `gjz`='关于色彩' limit 1
+10:15:59: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+10:15:59: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+10:15:59: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='45' and `gjz`='关于色彩' limit 1
+11:23:16: Duplicate entry '1-97' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('97','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+11:23:16: Duplicate entry '2-97' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('97','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+11:23:16: Duplicate entry '1-96' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('96','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+11:43:46: Duplicate entry '1-99' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('99','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+11:43:46: Duplicate entry '2-99' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('99','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+11:43:46: Duplicate entry '1-98' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('98','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+11:48:56: Duplicate entry '1-101' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('101','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+11:48:56: Duplicate entry '2-101' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('101','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+11:48:56: Duplicate entry '1-100' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('100','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+12:42:30: Duplicate entry '1-103' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('103','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+12:42:30: Duplicate entry '2-103' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('103','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+12:42:30: Duplicate entry '1-102' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('102','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+12:44:21: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=2029282573",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+13:05:01: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:05:01: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:05:01: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='51' and `gjz`='微官网' limit 1
+13:07:08: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:07:08: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:07:08: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='51' and `gjz`='微官网' limit 1
+13:07:58: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:07:58: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:07:58: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='51' and `gjz`='微官网' limit 1
+13:16:55: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:16:55: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:16:55: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='45' and `gjz`='关于色彩' limit 1
+13:17:44: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:17:44: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:17:44: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='45' and `gjz`='火车' limit 1
+13:42:39: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:42:39: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+13:42:39: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='51' and `gjz`='微官网' limit 1
+13:46:43: Duplicate entry '1-105' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('105','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+13:46:43: Duplicate entry '2-105' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('105','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+13:46:43: Duplicate entry '1-104' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('104','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)

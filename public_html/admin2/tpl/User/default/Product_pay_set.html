@@ -1,0 +1,85 @@
+<include file="Public:head"/>
+<link rel="stylesheet" type="text/css" href="{ai9me::RES}/css/cymain.css" />
+<div class="content">
+
+<div class="cLineB">
+  <h4>{ai9me:$infoType.name}支付方式配置 </h4><a href="javascript:history.go(-1);" class="right btnGrayS vm" style="margin-top:-27px">返回</a>
+ </div>
+ <!--tab start-->
+<div class="tab">
+<ul>
+<if condition="$infoType.type eq 'Groupon'">
+<li class="tabli" id="tab0"><a href="{ai9me::U('Groupon/index',array('token'=>$token))}">团购订单管理</a></li>
+<li class="tabli" id="tab2"><a href="{ai9me::U('Groupon/products',array('token'=>$token))}">团购管理</a></li>
+<else/>
+<li class="tabli" id="tab0"><a href="{ai9me::U('Product/index',array('token'=>$token,'dining'=>$isDining))}"><if condition="$isDining neq 1">商品<else/>菜品</if>管理</a></li>
+<li class="tabli" id="tab2"><a href="{ai9me::U('Product/cats',array('token'=>$token,'dining'=>$isDining))}"><if condition="$isDining neq 1">商品分类<else/>菜品分类</if>管理</a></li>
+<li class="tabli" id="tab3"><a href="{ai9me::U('Product/orders',array('token'=>$token,'dining'=>$isDining))}">订单管理</a></li>
+<if condition="$isDining eq 1"><li class="tabli" id="tab2"><a href="{ai9me::U('Product/tables',array('token'=>$token,'dining'=>1))}">桌台管理</a></li></if>
+</if>
+
+
+
+<li class="current tabli" id="tab6"><a href="{ai9me::U('Product/pay',array('token'=>$token,'pay'=>1,'dining'=>$isDining))}">支付方式配置</a></li>
+
+
+</ul>
+</div>
+<!--tab end-->        
+    <div class="msgWrap bgfc" style="margin-top:10px;">
+	  <form class="form" method="post" action="">	 
+		<table class="userinfoArea" style=" margin:0;" border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tbody>
+			  <!--  
+				<tr>
+				  <th valign="top"></th>
+				  <td>
+					<span class="green">—————财付通配置信息：</span></td>
+				</tr>
+				<tr>
+					<th width="120"><span class="red">*</span>partner：</th>
+					<td><input type="text" name="tpartner" value="{ai9me:$paySet.tpartner}" class="px" style="width:550px;"></td>
+				</tr>
+				<tr>
+					<th width="120"><span class="red">*</span>key：</th>
+					<td><input type="text" name="tkey" value="{ai9me:$paySet.tkey}" class="px" style="width:550px;"></td>
+				</tr>
+				-->
+				
+				<tr>
+				  <th valign="top"></th>
+				  <td>
+					<span class="green">—————支付宝配置信息：</span></td>
+				</tr>
+				
+				<tr>
+					<th width="120"><span class="red">*</span>partner：</th>
+					<td><input type="text" name="apartner" value="{ai9me:$paySet.apartner}" class="px" style="width:550px;"></td>
+				</tr>
+				<tr>
+					<th width="120"><span class="red">*</span>key：</th>
+					<td><input type="text" name="akey" value="{ai9me:$paySet.akey}" class="px" style="width:550px;"></td>
+				</tr>
+				<tr>
+					<th width="120"><span class="red">*</span>支付宝账号：</th>
+					<td><input type="text" name="aseller_email" value="{ai9me:$paySet.aseller_email}" class="px" style="width:550px;"></td>
+				</tr>
+				
+				
+				<th>&nbsp;</th>
+					<td>
+					   <input type="hidden" name="token" value="{ai9me:$token}" />
+					   <input type="hidden" name="uid" value="{ai9me:$uid}" />
+					   <input type="hidden" name="id" value="{ai9me:$paySet.id}" />
+						<button type="submit" name="button" class="btnGreen">保存</button>
+						<a href="javascript:history.go(-1);" class="btnGray vm">取消</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+  </div> 
+ 
+  
+        </div>
+<include file="Public:footer"/>

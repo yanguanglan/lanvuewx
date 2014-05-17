@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+<title>app</title>
+<link type="text/css" rel="stylesheet" href="style/app.css" />
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript">
+function openDiv(){
+	document.getElementById('light').style.display='block';
+	document.getElementById('fade').style.display='block'
+}
+function closeDiv(){
+	document.getElementById('light').style.display='none';
+	document.getElementById('fade').style.display='none'
+}
+</script>
+
+</head>
+
+<body>
+	<section class="demo">
+		 <div class="login-control">
+		 	<form action="" method="get" accept-charset="utf-8" class="form-item">
+		 		<div class="form-item-1">
+		 			<input type="text" name="name" id="name" placeholder="用户名">
+		 		</div>
+		 		<div class="form-item-2">
+		 			<input type="password" name="pwd" value="" placeholder="密   码">
+		 		</div>
+		 		<div class="form-item-3">
+		 			<input type="checkbox" name="showpwd" value="" id="showpwd" checked="checked"><label for="showpwd">记住密码</label>
+		 			<a href="#" class="fr">忘记密码？</a>
+		 		</div>
+		 		<div class="form-item-4">
+		 			<input type="button" class="button" value="登  录">
+		 		</div>
+                <div class="form-item-5">
+		 			<input type="button" class="button1" onclick="openDiv()" value="注  册">
+		 		</div>
+		 	</form>
+		 </div>
+         <!--弹出浮动层。-->
+         <div id="light" class="white_content"> 
+             <div class="pla_fd_content"></div>
+            <div class="pla_fd_content2">
+                <div class="plafc_title"><span></span><a href="javascript:void(0)" onclick="closeDiv()"> <img src="images/x.png"/></a></div>
+                <div class="plafc_content">
+                    <div class="bgico"><img src="images/documents.png"/></div>
+                    <p class="p1">欢迎加入吉商商会，请去商会办公室索取表格申请会员！</p>
+                </div>
+            </div>
+            <div class="pla_fd_content1"></div>
+		</div> 
+		<div id="fade" class="black_overlay"> </div> 
+        <!--浮动层结束-->
+	</section>
+</body>
+</html>

@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="keywords" content="微企、微信营销、微信代运营、微信托管、微网站、微商城、微营销、微信定制开发">
+<meta name="description" content="{$_SERVER['WEB_NAME']},微信公众智能服务平台,微企十大微体系:微菜单、微官网、微会员、微活动、微商城、微推送、微服务、微统计、微支付、微客服,企业微营销必备。">
+        <!-- Mobile Devices Support @begin -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+            <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <!-- Mobile Devices Support @end -->
+<!--         <link rel="stylesheet" type="text/css" href="http://stc.weimob.com/css/bootstrap.css?2013-10-21-2" media="all" /> -->
+  <!-- <link rel="stylesheet" type="text/css" href="http://stc.weimob.com/css/reg.css?2013-10-21-2" media="all" /> -->
+<link rel="stylesheet" href="{$CSS}reg_1.css"> 
+<link rel="stylesheet" href="{$CSS}reg_2.css">
+<link rel="stylesheet" href="{$CSS}reg.css"> 
+<link rel="shortcut icon" href="{if $_SERVER['IS_OEM']}/favicon.ico{else}/faviconmy.ico{/if}" />
+<title>注册 - {$_SERVER['WEB_NAME']}中心</title>
+        <!--[if IE 7]>
+            <link href="http://stc.weimob.com/css/font_awesome_ie7.css" rel="stylesheet" />
+        <![endif]-->
+        <!--[if lte IE 8]>
+            <script src="http://stc.weimob.com/js/excanvas_min.js"></script>
+        <![endif]-->
+        <!--[if lte IE 9]>
+            <script src="http://stc.weimob.com/js/watermark.js"></script>
+        <![endif]-->
+        <style type="text/css">
+<!--
+.STYLE1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #FF0000;
+}
+-->
+        </style>
+</head>
+ <body> 
+	<div class="header">
+	</div>
+	<div class="mainbody">
+		<div class="top">
+
+        <div id="hd" class="clearfix">
+            <div class="logo"><a href="/" hidefocus="true" onFocus="this.blur();">
+            <img src="{$_SERVER['LOGO_PIC']}" width="228" height="61">
+            </a></div>
+        </div>
+
+        <div class="info">
+        <span><a href="/" target="_blank" title="{$_SERVER['WEB_NAME']}首页" hidefocus="true" onFocus="this.blur();">{$_SERVER['WEB_NAME']}首页</a></span>
+        <span class="split">|</span>
+        <span><a href="/login.html" class="registerNew" title="登录" hidefocus="true" onFocus="this.blur();">登录</a></span>
+    </div>
+    <div style="clear:both;"></div>
+		</div>
+     <div class="reg-wrapper2">
+		<form id="regform" class="form-horizontal" action="" method="post">
+		  <div class="control-group">
+		    <label class="control-label" for="username"></label>
+		  </div>
+		  <div class="control-group"></div>
+		  <div class="control-group">
+		  	<div class="controls">
+		  	    <div align="left"><span class="STYLE1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;暂停注册</span></div>
+		  	</div>
+	  	  </div>
+		  </div>
+		</form>
+		<div id="ft">Copyright(c)2012-{date('Y')} {$_SERVER['WEB_NAME']} All Rights Reserved </div>
+     </div>
+</body>
+</html>

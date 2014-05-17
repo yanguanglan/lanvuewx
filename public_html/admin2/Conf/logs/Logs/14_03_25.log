@@ -1,0 +1,173 @@
+[ 2014-03-25T21:14:27+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2014-03-25T21:24:31+08:00 ] 115.227.108.139 /admin2/index.php?g=User&m=Product&a=index&dining=0&wxgjuid=15&wxgjpwd=96e79218965eb72c92a549dd5a330112&token=15
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/new/wx/public_html/admin2/Lib/Core/Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.002391s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=index&dining=0&wxgjuid=15&wxgjpwd=96e79218965eb72c92a549dd5a330112&token=15 HTTP/1.0
+','','180.153.235.49',null) [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.002624s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `username` = '15' ) LIMIT 1   [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.002630s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000772s ]
+SQL: INSERT INTO `ai9me_users` (`money`,`gid`,`username`,`password`,`createtime`,`lasttime`,`status`,`viptime`) VALUES (100000,7,'15','96e79218965eb72c92a549dd5a330112',1395753871,1395753871,1,'1809964800') [ RunTime:0.000523s ]
+NOTIC: [8] Undefined index:  username /www/web/new/wx/public_html/admin2/AI9ME/Lib/Action/UserAction.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.003052s ]
+SQL: INSERT INTO `ai9me_wxuser` (`wxname`,`wxid`,`weixin`,`headerpic`,`token`,`uid`,`tpltypeid`,`tpllistid`,`tplcontentid`,`tpltypename`,`tpllistname`,`tplcontentname`,`createtime`) VALUES ('15','15','15','./tpl/User/default/common/images/portrait.jpg','15',7,'1','1','1','ty_index','yl_list','ktv_content',1395753871) [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.002429s ]
+SQL: INSERT INTO `ai9me_token_open` (`uid`,`token`,`queryname`) VALUES (7,'15','tianqi,qiushi,jishuan,langdu,jiankang,kuaidi,xiaohua,changtoushi,peiliao,liaotian,mengjian,yuyinfanyi,huoche,gongjiao,shenfenzheng,shouji,yinle,fujin,choujiang,taobao,userinfo,fanyi,api,suanming,baike,caipiao,choujiang,gua2,shouye,adma,huiyuanka,shenhe,geci,host_kev,diyform,shop,etuan,diymen_set,dx') [ RunTime:0.000527s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `username` = '15' ) LIMIT 1   [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.001775s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000620s ]
+SQL: UPDATE `ai9me_users` SET `lasttime`=1395753871,`lastip`='180.153.235.49' WHERE ( `id` = 7 ) [ RunTime:0.000490s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.001698s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.001977s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = '15' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.001483s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '15' ) LIMIT 1   [ RunTime:0.000735s ]
+NOTIC: [8] Undefined index:  catid /www/web/new/wx/public_html/admin2/AI9ME/Lib/Action/User/ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.002393s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.002346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '15' ) AND ( `dining` = 0 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.000849s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '15' ) AND ( `dining` = 0 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.000660s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.174490s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002316s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.177054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113104s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.290396s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.299424s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.301127s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.302652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014684s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.305392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002223s ]
+
+[ 2014-03-25T21:44:27+08:00 ] 101.226.33.206 /admin2/index.php?g=User&m=Product&a=index&dining=0&wxgjuid=15&wxgjpwd=96e79218965eb72c92a549dd5a330112&token=15
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/new/wx/public_html/admin2/Lib/Core/Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.001486s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=index&dining=0&wxgjuid=15&wxgjpwd=96e79218965eb72c92a549dd5a330112&token=15 HTTP/1.0
+','','61.240.144.25',null) [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.001455s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `username` = '15' ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.001111s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: UPDATE `ai9me_users` SET `lasttime`=1395755067,`lastip`='61.240.144.25' WHERE ( `id` = 7 ) [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.001282s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.001370s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.001810s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = '15' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.000809s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '15' ) LIMIT 1   [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index:  catid /www/web/new/wx/public_html/admin2/AI9ME/Lib/Action/User/ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.001363s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.001024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '15' ) AND ( `dining` = 0 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '15' ) AND ( `dining` = 0 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.000116s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.041564s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.042216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017617s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.059859s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.060361s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.060926s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.061264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002410s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062442s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2014-03-25T23:39:56+08:00 ] 121.227.117.79 /admin2/index.php?g=User&m=Product&a=index&dining=0&wxgjuid=15&wxgjpwd=96e79218965eb72c92a549dd5a330112&token=15
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/new/wx/public_html/admin2/Lib/Core/Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.019558s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=index&dining=0&wxgjuid=15&wxgjpwd=96e79218965eb72c92a549dd5a330112&token=15 HTTP/1.0
+','','202.102.85.15',null) [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.012927s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `username` = '15' ) LIMIT 1   [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.004616s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: UPDATE `ai9me_users` SET `lasttime`=1395761996,`lastip`='202.102.85.15' WHERE ( `id` = 7 ) [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.001829s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.002287s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.003560s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = '15' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.002173s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '15' ) LIMIT 1   [ RunTime:0.000642s ]
+NOTIC: [8] Undefined index:  catid /www/web/new/wx/public_html/admin2/AI9ME/Lib/Action/User/ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.023185s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.012261s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '15' ) AND ( `dining` = 0 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '15' ) AND ( `dining` = 0 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.000143s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.138822s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.139742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028048s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.167967s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.168462s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.169279s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.169778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002707s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.170747s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2014-03-25T23:40:04+08:00 ] 121.227.117.79 /admin2/index.php?g=User&m=Product&a=pay&token=15&pay=1&dining=0
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/new/wx/public_html/admin2/Lib/Core/Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.001970s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=pay&token=15&pay=1&dining=0 HTTP/1.0
+','','202.102.85.15','7') [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index:  wxgjuid /www/web/new/wx/public_html/admin2/AI9ME/Lib/Action/UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd /www/web/new/wx/public_html/admin2/AI9ME/Lib/Action/UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.001626s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.001813s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.002228s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = '15' ) AND ( `uid` = 7 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.001194s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '15' ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.051251s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '15' ) LIMIT 1   [ RunTime:0.000988s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.097243s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001282s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: infoType /www/web/new/wx/public_html/admin2/Conf/logs/Cache/User/d8c68fa7afe2c056c8f799e46b2ccca6.php 第 26 行.
+NOTIC: [8] Undefined variable: infoType /www/web/new/wx/public_html/admin2/Conf/logs/Cache/User/d8c68fa7afe2c056c8f799e46b2ccca6.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.098603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077729s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.176497s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.177423s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.178491s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.179171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003796s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.180442s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001826s ]
+

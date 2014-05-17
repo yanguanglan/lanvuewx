@@ -1,0 +1,30 @@
+16:09:08: Duplicate entry '1-32' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('32','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+16:09:08: Duplicate entry '2-32' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('32','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+16:09:08: Duplicate entry '1-31' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('31','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+16:11:21: {
+"Ret": 302,
+"ErrMsg": "/acct/realnamepage?action=showsubmit&step=3&lang=zh_CN",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+16:14:58: Duplicate entry '1-30' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('30','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+16:14:58: Duplicate entry '2-30' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('30','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+16:14:58: Duplicate entry '1-29' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('29','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+16:15:32: {
+"Ret": 302,
+"ErrMsg": "/acct/realnamepage?action=showsubmit&step=3&lang=zh_CN",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:59:28: Duplicate entry '1-32' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('32','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+21:59:28: Duplicate entry '2-32' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('32','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+21:59:28: Duplicate entry '1-31' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('31','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+21:59:48: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=2095062685",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+22:06:57: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+22:06:57: Table 'taobao.micro_yiliao_set' doesn't exist：show full fields from `micro_yiliao_set`
+22:06:57: Table 'taobao.micro_yiliao_set' doesn't exist：select `` from `micro_yiliao_set` where `wid`='16' and `gjz`='预约' limit 1

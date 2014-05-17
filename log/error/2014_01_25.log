@@ -1,0 +1,30 @@
+01:05:04: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1238519057",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+10:50:07: {
+"Ret": 400,
+"ErrMsg": "",
+"ShowVerifyCode": 0,
+"ErrCode": -4
+}
+10:52:10: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=401235648",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+20:34:55: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1037746993",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+22:01:57: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=358681084",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}

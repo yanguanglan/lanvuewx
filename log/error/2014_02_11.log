@@ -1,0 +1,56 @@
+15:25:42: Duplicate entry '1-26' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('26','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+15:25:42: Duplicate entry '2-26' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('26','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+15:25:42: Duplicate entry '1-25' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('25','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+17:32:22: Duplicate entry '1-28' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('28','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+17:32:22: Duplicate entry '2-28' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('28','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+17:32:22: Duplicate entry '1-27' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('27','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+17:33:10: Duplicate entry '1-30' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('30','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+17:33:10: Duplicate entry '2-30' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('30','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+17:33:10: Duplicate entry '1-29' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('29','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+19:13:11: Duplicate entry '1-32' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('32','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+19:13:11: Duplicate entry '2-32' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('32','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+19:13:11: Duplicate entry '1-31' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('31','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+19:36:25: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:36:25: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:36:25: Table 'weipin.micro_xitie_infoList' doesn't exist：select `` from `micro_xitie_infoList` where `sid`='5' and `type`='1' order by id desc
+19:36:28: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:36:28: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:36:28: Table 'weipin.micro_xitie_infoList' doesn't exist：select `` from `micro_xitie_infoList` where `sid`='5' and `type`='1' order by id desc
+19:37:11: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:37:11: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:37:11: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:37:11: Table 'weipin.micro_xitie_infoList' doesn't exist：insert into `micro_xitie_infoList` () values ()
+19:37:18: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:37:18: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:37:18: Table 'weipin.micro_xitie_infoList' doesn't exist：select `` from `micro_xitie_infoList` where `sid`='5' and `type`='1' order by id desc
+19:37:22: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:37:22: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:37:22: Table 'weipin.micro_xitie_infoList' doesn't exist：select `` from `micro_xitie_infoList` where `sid`='5' and `type`='1' order by id desc
+19:59:14: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:59:14: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:59:14: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:59:14: Table 'weipin.micro_xitie_infoList' doesn't exist：insert into `micro_xitie_infoList` () values ()
+19:59:50: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:59:50: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:59:50: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+19:59:50: Table 'weipin.micro_xitie_infoList' doesn't exist：insert into `micro_xitie_infoList` () values ()
+20:00:08: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:00:08: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:00:08: Table 'weipin.micro_xitie_infoList' doesn't exist：select `` from `micro_xitie_infoList` where `sid`='5' and `type`='1' order by id desc
+20:00:10: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:00:10: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:00:10: Table 'weipin.micro_xitie_infoList' doesn't exist：select `` from `micro_xitie_infoList` where `sid`='5' and `type`='1' order by id desc
+20:07:08: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:07:08: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:07:08: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:07:08: Table 'weipin.micro_xitie_infoList' doesn't exist：insert into `micro_xitie_infoList` () values ()
+20:17:22: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:17:22: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:17:22: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:17:22: Table 'weipin.micro_xitie_infoList' doesn't exist：insert into `micro_xitie_infoList` () values ()
+20:17:34: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:17:34: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:17:34: Table 'weipin.micro_xitie_infoList' doesn't exist：select `` from `micro_xitie_infoList` where `sid`='1' and `type`='1' order by id desc
+20:17:38: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:17:38: Table 'weipin.micro_xitie_infoList' doesn't exist：show full fields from `micro_xitie_infoList`
+20:17:38: Table 'weipin.micro_xitie_infoList' doesn't exist：select `` from `micro_xitie_infoList` where `sid`='1' and `type`='1' order by id desc

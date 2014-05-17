@@ -1,0 +1,24 @@
+<include file="Product:header"/>
+<style>
+.deploy_ctype_tip{z-index:1001;width:100%;text-align:center;position:fixed;top:50%;margin-top:-23px;left:0;}.deploy_ctype_tip p{display:inline-block;padding:13px 24px;border:solid #d6d482 1px;background:#f5f4c5;font-size:16px;color:#8f772f;line-height:18px;border-radius:3px;}
+</style>
+<form method="post" action="" onsubmit="return tgSubmit()">
+<div class="main" id="wrap">
+    	<div class="p_mod o_address">
+    		<h2 class="p_mod_title">请选择支付方式</h2>
+            <div id="city">
+	    		<ul>
+	    			<li><input type="radio" name="tenpay" value="财付通" checked="checked" /><img src="http://localhost:8088/admin2/Extend/Vendor/Tenpay/image/cft.gif" width="135px" height="45px" ></li>
+	    			<li><input type="radio" name="alipay" value="支付宝"  /><img src="http://localhost:8088/admin2/Extend/Vendor/Alipay/images/alipay.gif" ></li>
+	    		</ul>
+            </div>
+    	</div>
+    	<div class="o_btn clearfix">
+    		<input type="button" class="o_btn_back ts1" onclick="history.go(-1);" value="返回" />
+    		<input type="submit" class="o_btn_submit ts1" value="下一步" />
+    	</div>
+</div>
+</form>
+	<include file="Product:cr"/> 
+</body>
+</html>

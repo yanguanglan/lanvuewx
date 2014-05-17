@@ -1,0 +1,36 @@
+13:11:30: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1640732861",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+18:46:49: MySQL server has gone away：show full fields from `menu`
+18:46:49: MySQL server has gone away：show full fields from `menu`
+18:46:49: MySQL server has gone away：select `` from `menu` where `wid`='52' limit 1
+19:14:27: MySQL server has gone away：show full fields from `menu`
+19:14:27: MySQL server has gone away：show full fields from `menu`
+19:14:27: MySQL server has gone away：select `` from `menu` where `wid`='52' limit 1
+20:18:18: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=2010799642",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+22:22:22: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=2033799007",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+22:25:32: {
+"Ret": 400,
+"ErrMsg": "",
+"ShowVerifyCode": 0,
+"ErrCode": -4
+}
+22:36:21: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1829110",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}

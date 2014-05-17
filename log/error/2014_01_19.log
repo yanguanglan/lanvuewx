@@ -1,0 +1,96 @@
+14:56:57: Table './weixin/wxweb' is marked as crashed and should be repaired：show full fields from `wxweb`
+14:56:57: Table './weixin/wxweb' is marked as crashed and should be repaired：show full fields from `wxweb`
+14:56:57: Table './weixin/wxweb' is marked as crashed and should be repaired：select `` from `wxweb` where `wid`='91' order by id
+14:56:59: Table './weixin/wxweb' is marked as crashed and should be repaired：show full fields from `wxweb`
+14:56:59: Table './weixin/wxweb' is marked as crashed and should be repaired：show full fields from `wxweb`
+14:56:59: Table './weixin/wxweb' is marked as crashed and should be repaired：select `` from `wxweb` where `wid`='91' order by id
+14:57:04: Table './weixin/wxweb' is marked as crashed and should be repaired：show full fields from `wxweb`
+14:57:04: Table './weixin/wxweb' is marked as crashed and should be repaired：show full fields from `wxweb`
+14:57:04: Table './weixin/wxweb' is marked as crashed and should be repaired：delete from `wxweb` where `wid`='91'
+14:57:04: Table './weixin/wxweb' is marked as crashed and should be repaired：show full fields from `wxweb`
+14:57:04: Table './weixin/wxweb' is marked as crashed and should be repaired：show full fields from `wxweb`
+14:57:04: Table './weixin/wxweb' is marked as crashed and should be repaired：insert into `wxweb` () values ()
+14:57:07: Table './weixin/wxweb' is marked as crashed and should be repaired：show full fields from `wxweb`
+14:57:07: Table './weixin/wxweb' is marked as crashed and should be repaired：show full fields from `wxweb`
+14:57:07: Table './weixin/wxweb' is marked as crashed and should be repaired：select `` from `wxweb` where `wid`='91' order by id
+15:20:41: {
+"Ret": 400,
+"ErrMsg": "",
+"ShowVerifyCode": 0,
+"ErrCode": -3
+}
+15:20:48: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=107199256",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+15:22:39: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1833895414",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+16:26:44: Incorrect table name ''：show full fields from ``
+16:26:44: Incorrect table name ''：show full fields from ``
+16:26:44: Incorrect table name ''：select id,name from `` where pid=''
+16:32:16: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1941783310",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+16:32:18: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1941783310",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+17:01:11: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=248666163",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:27:03: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1599763615",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:54:50: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=165283951",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:54:54: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=165283951",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:54:57: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=165283951",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+23:04:17: {
+"Ret": 400,
+"ErrMsg": "",
+"ShowVerifyCode": 0,
+"ErrCode": -4
+}
+23:04:34: {
+"Ret": 400,
+"ErrMsg": "",
+"ShowVerifyCode": 0,
+"ErrCode": -3
+}
+23:04:47: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=401250579",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}

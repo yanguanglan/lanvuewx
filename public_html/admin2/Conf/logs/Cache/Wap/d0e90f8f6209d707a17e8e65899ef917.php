@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>{"products":[{"id":"121","catid":"99","storeid":"1","name":"苹果iPhone5S (16GB) (银)","price":"4896","intro":"iPhone5S","token":"17","keyword":"iPhone5S","salecount":"1","logourl":"iPhone5S","time":"1388675370","oprice":"5096"}]}

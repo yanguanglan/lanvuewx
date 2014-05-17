@@ -1,0 +1,148 @@
+00:40:36: Duplicate entry '1-8' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('8','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+00:40:36: Duplicate entry '2-8' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('8','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+00:40:36: Duplicate entry '1-7' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('7','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+00:40:53: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+00:40:53: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+00:40:53: Table 'weipin.micro_hk' doesn't exist：select `` from `micro_hk` where `wid`='4' limit 1
+00:46:01: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:46:01: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:46:01: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:46:03: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:46:03: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:46:03: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' limit 1
+00:47:22: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:22: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:22: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' limit 1
+00:47:22: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:22: Table 'weipin.micro_yuyue_yyby' doesn't exist：insert into `micro_yuyue_yyby` () values ()
+00:47:24: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:24: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:24: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:47:25: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:25: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:25: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' limit 1
+00:47:26: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:26: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:26: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:47:28: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:28: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:28: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' limit 1
+00:47:30: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:30: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:30: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:47:32: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:32: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:32: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' limit 1
+00:47:34: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:34: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:34: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:47:34: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:34: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:34: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:47:39: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:39: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:47:39: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:48:41: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+00:48:41: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+00:48:41: Table 'weipin.micro_hk' doesn't exist：select `` from `micro_hk` where `wid`='3' limit 1
+00:48:51: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:48:51: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:48:51: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:51:03: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:03: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:03: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:51:04: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:04: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:04: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' limit 1
+00:51:48: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:48: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:48: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' limit 1
+00:51:48: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:48: Table 'weipin.micro_yuyue_yyby' doesn't exist：insert into `micro_yuyue_yyby` () values ()
+00:51:52: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:52: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:52: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:51:55: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:55: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:55: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:51:56: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:56: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:56: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' limit 1
+00:51:57: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:57: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:57: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+00:51:59: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:59: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+00:51:59: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' limit 1
+01:04:55: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+01:04:55: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+01:04:55: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+01:04:57: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+01:04:57: Table 'weipin.micro_yuyue_yyby' doesn't exist：show full fields from `micro_yuyue_yyby`
+01:04:57: Table 'weipin.micro_yuyue_yyby' doesn't exist：select `` from `micro_yuyue_yyby` where `wid`='3' order by id
+01:16:36: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+01:16:36: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+01:16:36: Table 'weipin.micro_hk' doesn't exist：select `` from `micro_hk` where `wid`='3' limit 1
+01:16:43: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+01:16:43: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+01:16:43: Table 'weipin.micro_hk' doesn't exist：select `` from `micro_hk` where `wid`='3' limit 1
+01:17:51: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1448770208",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+01:21:39: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+01:21:39: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+01:21:39: Table 'weipin.micro_hk' doesn't exist：select `` from `micro_hk` where `wid`='4' limit 1
+01:57:17: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+01:57:17: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+01:57:17: Table 'weipin.micro_hk' doesn't exist：select `` from `micro_hk` where `wid`='4' limit 1
+01:57:30: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+01:57:30: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+01:57:30: Table 'weipin.micro_hk' doesn't exist：select `` from `micro_hk` where `wid`='4' limit 1
+10:20:45: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+10:20:45: Table 'weipin.micro_hk' doesn't exist：show full fields from `micro_hk`
+10:20:45: Table 'weipin.micro_hk' doesn't exist：select `` from `micro_hk` where `wid`='3' limit 1
+12:24:43: Duplicate entry '1-10' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('10','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+12:24:43: Duplicate entry '2-10' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('10','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+12:24:43: Duplicate entry '1-9' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('9','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+13:47:58: Duplicate entry '1-12' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('12','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+13:47:58: Duplicate entry '2-12' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('12','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+13:47:58: Duplicate entry '1-11' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('11','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+13:56:45: Duplicate entry '1-14' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('14','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+13:56:45: Duplicate entry '2-14' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('14','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+13:56:45: Duplicate entry '1-13' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('13','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+17:02:48: Duplicate entry '1-16' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('16','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+17:02:48: Duplicate entry '2-16' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('16','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+17:02:48: Duplicate entry '1-15' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('15','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+19:22:03: Duplicate entry '1-18' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('18','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+19:22:03: Duplicate entry '2-18' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('18','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+19:22:03: Duplicate entry '1-17' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('17','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+20:54:29: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1565713873",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+21:25:24: Duplicate entry '1-20' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('20','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+21:25:24: Duplicate entry '2-20' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('20','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+21:25:24: Duplicate entry '1-19' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('19','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:04:24: Duplicate entry '1-22' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('22','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:04:24: Duplicate entry '2-22' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('22','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:04:24: Duplicate entry '1-21' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('21','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:47:19: Duplicate entry '1-24' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('24','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:47:19: Duplicate entry '2-24' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('24','2','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:47:19: Duplicate entry '1-23' for key 'PRIMARY'：insert into `res_content` (`rid`,`ord`,`content`,`title`,`url`) values ('23','1','<p>点击进入微官网[演示版，请修改]<br></p>','欢迎关注微信公众账号，点击进入微官网[演示版，请修改]',null)
+22:50:50: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1265309586",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+22:50:53: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1265309586",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}

@@ -1,0 +1,2686 @@
+[ 2014-01-04T08:07:11+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=orderCart&token=17&cartIsDining=0&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.047195s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048223s ]
+SQL: SHOW COLUMNS FROM `ai9me_userinfo` [ RunTime:0.047347s ]
+SQL: SELECT * FROM `ai9me_userinfo` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) LIMIT 1   [ RunTime:0.048703s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.048895s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.048828s ]
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\AI9ME\Lib\Action\Wap\ProductAction.class.php 第 592 行.
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.652293s ]
+INFO: [ view_template ] --END-- [ RunTime:0.022452s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 47 行.
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.674815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.271147s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.946024s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.947348s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.949010s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.949990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005258s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.951369s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002250s ]
+
+[ 2014-01-04T08:07:16+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.047919s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049453s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.049330s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.047580s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.501113s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.502135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166716s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.668903s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.669470s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.670016s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.670430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.671162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2014-01-04T08:07:18+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049705s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049368s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.049814s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.457214s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013645s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.470927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160936s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.631917s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.633927s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.634556s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.634984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003723s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.635727s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2014-01-04T08:07:21+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=products&token=17&catid=99&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.035371s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037290s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `id` = 99 ) LIMIT 1   [ RunTime:0.035320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 99 ) LIMIT 1   [ RunTime:0.037355s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 99 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.034099s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.415800s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001303s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 47 行.
+NOTIC: [8] Undefined variable: isSearch D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.417158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.180054s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.597261s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.597876s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.598636s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.599176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002652s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.600004s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2014-01-04T08:07:23+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=product&token=17&id=173&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.037013s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037544s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` = 173 ) LIMIT 1   [ RunTime:0.037810s ]
+SQL: SHOW COLUMNS FROM `ai9me_company` [ RunTime:0.034398s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_company` WHERE ( `token` = '17' ) AND ( `isbranch` = 1 ) LIMIT 1   [ RunTime:0.036059s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` <> '173' ) AND ( `groupon` <> 1 ) AND ( `dining` <> 1 ) LIMIT 0,5   [ RunTime:0.036915s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.454475s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.455496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185308s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.640855s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.641464s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.642033s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.642439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002253s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.643191s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2014-01-04T08:07:25+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=addProductToCart&token=17&id=173&price=1299&count=1&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049127s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049291s ]
+
+[ 2014-01-04T08:07:27+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cart&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049773s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048084s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` IN (173) )  [ RunTime:0.046466s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.442469s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007326s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.449859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177855s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.627765s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.628346s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.628934s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.629373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002244s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.630091s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2014-01-04T08:07:30+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=orderCart&token=17&cartIsDining=0&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.035284s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.034113s ]
+SQL: SHOW COLUMNS FROM `ai9me_userinfo` [ RunTime:0.037017s ]
+SQL: SELECT * FROM `ai9me_userinfo` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) LIMIT 1   [ RunTime:0.037049s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.035693s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.036321s ]
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\AI9ME\Lib\Action\Wap\ProductAction.class.php 第 592 行.
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.438976s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000572s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 47 行.
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.439601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176077s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.615730s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.616456s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.617075s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.617521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002539s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.618398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2014-01-04T08:07:35+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=orderCart&token=17&cartIsDining=0&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.035514s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.034504s ]
+SQL: SHOW COLUMNS FROM `ai9me_userinfo` [ RunTime:0.034681s ]
+SQL: SELECT * FROM `ai9me_userinfo` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) LIMIT 1   [ RunTime:0.035227s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.036911s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.035350s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.044818s ]
+NOTIC: [8] Undefined variable: all D:\website\admin2\AI9ME\Lib\Action\Wap\ProductAction.class.php 第 380 行.
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` = 173 ) LIMIT 1   [ RunTime:0.036764s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` IN (173) )  [ RunTime:0.037604s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cart` [ RunTime:0.035525s ]
+SQL: INSERT INTO `ai9me_product_cart` (`truename`,`tel`,`address`,`token`,`wecha_id`,`time`,`orderid`,`total`,`price`,`diningtype`,`buytime`,`tableid`,`info`,`groupon`,`dining`) VALUES ('老刘','18701996804','万阅城','17','4a',1388794054,'201401040807346669',1,1299,0,'',0,'a:1:{i:173;a:2:{s:5:"count";i:1;s:5:"price";d:1299;}}',0,0) [ RunTime:0.037336s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cart_list` [ RunTime:0.034421s ]
+SQL: INSERT INTO `ai9me_product_cart_list` (`cartid`,`productid`,`price`,`total`,`wecha_id`,`token`,`time`) VALUES (162,173,1299,1,'4a','17',1388794054) [ RunTime:0.037932s ]
+SQL: UPDATE `ai9me_product` SET `salecount`=salecount+1 WHERE ( `id` = 173 ) [ RunTime:0.034945s ]
+SQL: UPDATE `ai9me_userinfo` SET `tel`='18701996804',`truename`='老刘',`address`='万阅城' WHERE ( `id` = 13 ) [ RunTime:0.035596s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2048] Redefining already defined constructor for class AlipayNotify D:\website\admin2\Extend\Vendor\Alipaywap\Notify.php 第 29 行.
+NOTIC: [2048] Redefining already defined constructor for class AlipaySubmit D:\website\admin2\Extend\Vendor\Alipaywap\Submit.php 第 25 行.
+
+[ 2014-01-04T08:27:38+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=orderCart&token=17&cartIsDining=0&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050890s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.050489s ]
+SQL: SHOW COLUMNS FROM `ai9me_userinfo` [ RunTime:0.052088s ]
+SQL: SELECT * FROM `ai9me_userinfo` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) LIMIT 1   [ RunTime:0.053043s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.051753s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.052015s ]
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\AI9ME\Lib\Action\Wap\ProductAction.class.php 第 592 行.
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.622166s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 47 行.
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.623409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160734s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.784196s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.785046s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.785981s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.786820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003555s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.787840s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2014-01-04T08:27:44+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.042885s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037294s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.038037s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.037365s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.407244s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.408254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.219293s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.627608s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.628361s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.628973s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.629391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002420s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.630108s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2014-01-04T08:27:46+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.053886s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049499s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.046603s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.468087s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000924s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.469064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156744s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.625861s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.626414s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.626955s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.627348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002117s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.628060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2014-01-04T08:27:47+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=products&token=17&catid=99&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.035124s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.035020s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `id` = 99 ) LIMIT 1   [ RunTime:0.036233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 99 ) LIMIT 1   [ RunTime:0.041167s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 99 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.038204s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.429623s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 47 行.
+NOTIC: [8] Undefined variable: isSearch D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.430615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184928s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.615593s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.616171s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.616753s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.617148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002195s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.617871s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2014-01-04T08:27:49+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=product&token=17&id=173&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.042523s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.041733s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` = 173 ) LIMIT 1   [ RunTime:0.036722s ]
+SQL: SHOW COLUMNS FROM `ai9me_company` [ RunTime:0.038475s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_company` WHERE ( `token` = '17' ) AND ( `isbranch` = 1 ) LIMIT 1   [ RunTime:0.036411s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` <> '173' ) AND ( `groupon` <> 1 ) AND ( `dining` <> 1 ) LIMIT 0,5   [ RunTime:0.036359s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.467331s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.468301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145855s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.614208s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.615176s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.615789s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.616205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002631s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.616927s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2014-01-04T08:27:51+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=addProductToCart&token=17&id=173&price=1299&count=1&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.054903s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.046642s ]
+
+[ 2014-01-04T08:27:53+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cart&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.035095s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.043813s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` IN (173) )  [ RunTime:0.035658s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.356270s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.357362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164319s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.521734s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.522351s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.522927s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.523473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002526s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.524373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2014-01-04T08:27:57+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=orderCart&token=17&cartIsDining=0&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.047320s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048044s ]
+SQL: SHOW COLUMNS FROM `ai9me_userinfo` [ RunTime:0.048661s ]
+SQL: SELECT * FROM `ai9me_userinfo` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) LIMIT 1   [ RunTime:0.046952s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.049033s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.047239s ]
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\AI9ME\Lib\Action\Wap\ProductAction.class.php 第 592 行.
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.606257s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 47 行.
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.607226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153244s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.760521s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.761100s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.761774s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.762195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002308s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.762915s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2014-01-04T08:28:00+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=orderCart&token=17&cartIsDining=0&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.036533s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.038157s ]
+SQL: SHOW COLUMNS FROM `ai9me_userinfo` [ RunTime:0.036258s ]
+SQL: SELECT * FROM `ai9me_userinfo` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) LIMIT 1   [ RunTime:0.037242s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.037937s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.040620s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.042284s ]
+NOTIC: [8] Undefined variable: all D:\website\admin2\AI9ME\Lib\Action\Wap\ProductAction.class.php 第 380 行.
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` = 173 ) LIMIT 1   [ RunTime:0.035608s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` IN (173) )  [ RunTime:0.036806s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cart` [ RunTime:0.038279s ]
+SQL: INSERT INTO `ai9me_product_cart` (`truename`,`tel`,`address`,`token`,`wecha_id`,`time`,`orderid`,`total`,`price`,`diningtype`,`buytime`,`tableid`,`info`,`groupon`,`dining`) VALUES ('老刘','18701996804','万阅城','17','4a',1388795280,'201401040828007834',1,1299,0,'',0,'a:1:{i:173;a:2:{s:5:"count";i:1;s:5:"price";d:1299;}}',0,0) [ RunTime:0.038340s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cart_list` [ RunTime:0.035460s ]
+SQL: INSERT INTO `ai9me_product_cart_list` (`cartid`,`productid`,`price`,`total`,`wecha_id`,`token`,`time`) VALUES (163,173,1299,1,'4a','17',1388795280) [ RunTime:0.037030s ]
+SQL: UPDATE `ai9me_product` SET `salecount`=salecount+1 WHERE ( `id` = 173 ) [ RunTime:0.037997s ]
+SQL: UPDATE `ai9me_userinfo` SET `tel`='18701996804',`truename`='老刘',`address`='万阅城' WHERE ( `id` = 13 ) [ RunTime:0.034879s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2048] Redefining already defined constructor for class AlipayNotify D:\website\admin2\Extend\Vendor\Alipaywap\Notify.php 第 29 行.
+NOTIC: [2048] Redefining already defined constructor for class AlipaySubmit D:\website\admin2\Extend\Vendor\Alipaywap\Submit.php 第 25 行.
+
+[ 2014-01-04T13:35:07+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050095s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.047742s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.048309s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.048091s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.498167s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.499418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162342s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.661813s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.662646s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.663464s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.664140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003239s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.665131s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2014-01-04T13:35:09+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050285s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049307s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.046407s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.459516s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001012s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.460589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158790s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.619429s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.619973s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.620514s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.620972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002226s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.621749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2014-01-04T13:35:11+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=products&token=17&catid=149&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.038372s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.036370s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `id` = 149 ) LIMIT 1   [ RunTime:0.034057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 149 ) LIMIT 1   [ RunTime:0.036628s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 149 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.074424s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.461492s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000928s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 47 行.
+NOTIC: [8] Undefined variable: isSearch D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.462475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170597s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.633138s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.633944s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.634716s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.635396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003047s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.636273s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2014-01-04T13:35:13+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=product&token=17&id=179&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.038065s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037231s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` = 179 ) LIMIT 1   [ RunTime:0.037470s ]
+SQL: SHOW COLUMNS FROM `ai9me_company` [ RunTime:0.036300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_company` WHERE ( `token` = '17' ) AND ( `isbranch` = 1 ) LIMIT 1   [ RunTime:0.035523s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` <> '179' ) AND ( `groupon` <> 1 ) AND ( `dining` <> 1 ) LIMIT 0,5   [ RunTime:0.074622s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.504264s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.505234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149969s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.655257s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.655863s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.656410s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.656813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002187s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.657587s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2014-01-04T13:35:14+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=addProductToCart&token=17&id=179&price=4699&count=1&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050150s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048742s ]
+
+[ 2014-01-04T13:35:16+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cart&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049629s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.047667s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` IN (179) )  [ RunTime:0.049499s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.453942s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000900s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.454895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171611s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.626560s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.627115s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.627660s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.628055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002130s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.628772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2014-01-04T13:35:19+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=orderCart&token=17&cartIsDining=0&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050529s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048014s ]
+SQL: SHOW COLUMNS FROM `ai9me_userinfo` [ RunTime:0.049228s ]
+SQL: SELECT * FROM `ai9me_userinfo` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) LIMIT 1   [ RunTime:0.049835s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.049228s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.049076s ]
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\AI9ME\Lib\Action\Wap\ProductAction.class.php 第 592 行.
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.606778s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 47 行.
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.607752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153969s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.761775s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.762332s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.762906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.763299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002152s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.764011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2014-01-04T13:35:26+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=orderCart&token=17&cartIsDining=0&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050091s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048380s ]
+SQL: SHOW COLUMNS FROM `ai9me_userinfo` [ RunTime:0.049897s ]
+SQL: SELECT * FROM `ai9me_userinfo` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) LIMIT 1   [ RunTime:0.051164s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.049105s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.048278s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050128s ]
+NOTIC: [8] Undefined variable: all D:\website\admin2\AI9ME\Lib\Action\Wap\ProductAction.class.php 第 380 行.
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` = 179 ) LIMIT 1   [ RunTime:0.049072s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` IN (179) )  [ RunTime:0.048704s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cart` [ RunTime:0.048072s ]
+SQL: INSERT INTO `ai9me_product_cart` (`truename`,`tel`,`address`,`token`,`wecha_id`,`time`,`orderid`,`total`,`price`,`diningtype`,`buytime`,`tableid`,`info`,`groupon`,`dining`) VALUES ('老刘','18701996804','万阅城','17','4a',1388813726,'201401041335263034',1,4699,0,'',0,'a:1:{i:179;a:2:{s:5:"count";i:1;s:5:"price";d:4699;}}',0,0) [ RunTime:0.047191s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cart_list` [ RunTime:0.049627s ]
+SQL: INSERT INTO `ai9me_product_cart_list` (`cartid`,`productid`,`price`,`total`,`wecha_id`,`token`,`time`) VALUES (181,179,4699,1,'4a','17',1388813726) [ RunTime:0.049496s ]
+SQL: UPDATE `ai9me_product` SET `salecount`=salecount+1 WHERE ( `id` = 179 ) [ RunTime:0.048829s ]
+SQL: UPDATE `ai9me_userinfo` SET `tel`='18701996804',`truename`='老刘',`address`='万阅城' WHERE ( `id` = 13 ) [ RunTime:0.048812s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2048] Redefining already defined constructor for class AlipayNotify D:\website\admin2\Extend\Vendor\Alipaywap\Notify.php 第 29 行.
+NOTIC: [2048] Redefining already defined constructor for class AlipaySubmit D:\website\admin2\Extend\Vendor\Alipaywap\Submit.php 第 25 行.
+
+[ 2014-01-04T13:39:10+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=orderCart&token=17&cartIsDining=0&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.036842s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.034714s ]
+SQL: SHOW COLUMNS FROM `ai9me_userinfo` [ RunTime:0.037927s ]
+SQL: SELECT * FROM `ai9me_userinfo` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) LIMIT 1   [ RunTime:0.038040s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.037869s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.038134s ]
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\AI9ME\Lib\Action\Wap\ProductAction.class.php 第 592 行.
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.459953s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 47 行.
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.461228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156592s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.617876s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.618723s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.619577s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.620251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003295s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.621254s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2014-01-04T13:39:38+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=orderCart&token=17&cartIsDining=0&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.035643s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.035888s ]
+SQL: SHOW COLUMNS FROM `ai9me_userinfo` [ RunTime:0.037081s ]
+SQL: SELECT * FROM `ai9me_userinfo` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) LIMIT 1   [ RunTime:0.036962s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.037146s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.034598s ]
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\AI9ME\Lib\Action\Wap\ProductAction.class.php 第 592 行.
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.453869s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 47 行.
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.454474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.197069s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.651608s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.652374s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.653133s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.653593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002635s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.654330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2014-01-04T13:39:42+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049851s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049555s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.048423s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.048371s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.497995s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.499007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142702s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.641739s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.642523s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.643130s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.643580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.644325s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2014-01-04T13:39:44+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.035113s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.038383s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.036135s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.340000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.341188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.326018s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.667257s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.667809s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.668361s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.668753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002442s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.669823s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2014-01-04T13:39:46+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=products&token=17&catid=99&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.035567s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.036532s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `id` = 99 ) LIMIT 1   [ RunTime:0.037781s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 99 ) LIMIT 1   [ RunTime:0.037192s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 99 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.038130s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.411551s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 47 行.
+NOTIC: [8] Undefined variable: isSearch D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.412512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.254208s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.666773s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.667353s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.667929s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.668332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002192s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.669047s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2014-01-04T13:39:48+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=product&token=17&id=173&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.048712s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.046525s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` = 173 ) LIMIT 1   [ RunTime:0.048505s ]
+SQL: SHOW COLUMNS FROM `ai9me_company` [ RunTime:0.046956s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_company` WHERE ( `token` = '17' ) AND ( `isbranch` = 1 ) LIMIT 1   [ RunTime:0.047744s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` <> '173' ) AND ( `groupon` <> 1 ) AND ( `dining` <> 1 ) LIMIT 0,5   [ RunTime:0.096675s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.647944s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.648908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.203915s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.852876s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.853440s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.854054s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.854481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.855197s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2014-01-04T13:39:49+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=addProductToCart&token=17&id=173&price=1299&count=1&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.038056s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037046s ]
+
+[ 2014-01-04T13:39:51+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cart&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.048954s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.046447s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` IN (173) )  [ RunTime:0.048335s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.458014s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000898s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.458967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149993s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.609012s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.610060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.610606s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.610997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.611720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2014-01-04T13:40:16+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cart&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.034995s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037518s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` IN (173) )  [ RunTime:0.037342s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.352594s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.353229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143807s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.497087s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.497648s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.498184s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.498579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002116s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.499285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2014-01-04T13:40:29+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.040949s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.044384s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.043090s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.036338s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.414684s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000588s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.415326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.321762s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.737153s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.737824s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.738397s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.738791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002277s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.739508s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2014-01-04T13:40:30+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.054852s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.051201s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.049317s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.468266s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.468871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164377s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.633302s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.633839s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.634382s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.634773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002422s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.635813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2014-01-04T13:40:34+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=products&token=17&catid=156&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.036881s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.036527s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `id` = 156 ) LIMIT 1   [ RunTime:0.034101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 156 ) LIMIT 1   [ RunTime:0.042665s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 156 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.037972s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.428030s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 47 行.
+NOTIC: [8] Undefined variable: isSearch D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.428634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.212041s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.640730s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.641289s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.641902s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.642348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002626s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.643450s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2014-01-04T13:40:37+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.037313s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037299s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.035543s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.340267s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000624s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.340938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159499s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.500494s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.501138s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.502882s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.503400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003544s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.504136s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2014-01-04T13:40:38+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=products&token=17&catid=150&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.047960s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.052386s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `id` = 150 ) LIMIT 1   [ RunTime:0.048188s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 150 ) LIMIT 1   [ RunTime:0.049402s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 150 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.047668s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.551397s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 47 行.
+NOTIC: [8] Undefined variable: isSearch D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.552000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160858s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.712909s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.713476s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.714068s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.714470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.715196s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2014-01-04T13:40:40+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=product&token=17&id=182&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.052740s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.047496s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` = 182 ) LIMIT 1   [ RunTime:0.049588s ]
+SQL: SHOW COLUMNS FROM `ai9me_company` [ RunTime:0.047863s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_company` WHERE ( `token` = '17' ) AND ( `isbranch` = 1 ) LIMIT 1   [ RunTime:0.048025s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` <> '182' ) AND ( `groupon` <> 1 ) AND ( `dining` <> 1 ) LIMIT 0,5   [ RunTime:0.093883s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.643451s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.644103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162424s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.806580s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.807149s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.807699s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.808092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002142s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.808804s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2014-01-04T13:40:43+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=addProductToCart&token=17&id=182&price=6989&count=1&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050680s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048127s ]
+
+[ 2014-01-04T13:40:45+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cart&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049071s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.047471s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` IN (173,182) )  [ RunTime:0.047434s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.466454s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.467082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153944s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.621078s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.621669s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.622209s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.622629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002194s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.623356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2014-01-04T13:41:15+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=my&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.035117s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037205s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cart` [ RunTime:0.038467s ]
+SQL: SELECT * FROM `ai9me_product_cart` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) ORDER BY time DESC  [ RunTime:0.038736s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.395087s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001368s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 47 行.
+NOTIC: [8] Undefined index:  success D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 50 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.396515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172211s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.568784s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.569736s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.570634s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.571331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003541s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.572415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2014-01-04T14:00:24+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cart&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.037638s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.036486s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` IN (173,182) )  [ RunTime:0.037668s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.365358s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001192s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\053d9698c4487d71a4f0b766da2bef21.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.366606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.295951s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.662609s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.663546s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.664431s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.665295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003717s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.666420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2014-01-04T14:00:27+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=orderCart&token=17&cartIsDining=0&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.037556s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.038144s ]
+SQL: SHOW COLUMNS FROM `ai9me_userinfo` [ RunTime:0.035791s ]
+SQL: SELECT * FROM `ai9me_userinfo` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) LIMIT 1   [ RunTime:0.036383s ]
+SQL: SHOW COLUMNS FROM `ai9me_pay_set` [ RunTime:0.039933s ]
+SQL: SELECT * FROM `ai9me_pay_set` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.035883s ]
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\AI9ME\Lib\Action\Wap\ProductAction.class.php 第 592 行.
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.454383s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000921s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 47 行.
+NOTIC: [8] Undefined variable: cartIsDining D:\website\admin2\Conf\logs\Cache\Wap\55e1696c065e13a88c14bc31d7a04f40.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.455359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163704s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.619115s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.619661s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.620232s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.620631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002141s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.621340s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2014-01-04T14:24:37+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.047132s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049964s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.051086s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.048396s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.505522s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001208s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.506784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.240875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.747711s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.748534s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.749356s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.750044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003248s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.751041s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2014-01-04T14:41:24+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=dining&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049270s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049425s ]
+SQL: SHOW COLUMNS FROM `ai9me_reply_info` [ RunTime:0.050007s ]
+SQL: SELECT * FROM `ai9me_reply_info` WHERE ( `infotype` = 'Dining' ) AND ( `token` = '17' ) LIMIT 1   [ RunTime:0.048170s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.502197s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001211s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.503460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210512s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.714025s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.714841s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.715660s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.716333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003222s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.717327s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2014-01-04T14:41:28+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=dining&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.036894s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.036572s ]
+SQL: SHOW COLUMNS FROM `ai9me_reply_info` [ RunTime:0.036163s ]
+SQL: SELECT * FROM `ai9me_reply_info` WHERE ( `infotype` = 'Dining' ) AND ( `token` = '17' ) LIMIT 1   [ RunTime:0.036757s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.381630s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.382458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182135s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.564644s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.565161s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.566149s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.566587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002580s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.567310s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2014-01-04T14:55:48+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=dining&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049025s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049406s ]
+SQL: SHOW COLUMNS FROM `ai9me_reply_info` [ RunTime:0.048812s ]
+SQL: SELECT * FROM `ai9me_reply_info` WHERE ( `infotype` = 'Dining' ) AND ( `token` = '17' ) LIMIT 1   [ RunTime:0.047011s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.503646s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001191s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.504891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146220s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.651163s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.651974s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.652841s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.653520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003265s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.654629s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2014-01-04T14:56:07+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.036973s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.038439s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.035472s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.037275s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.380535s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.381495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.283286s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.664840s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.665377s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.665917s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.666308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002108s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.667019s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2014-01-04T14:56:13+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=dining&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.048882s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.047596s ]
+SQL: SHOW COLUMNS FROM `ai9me_reply_info` [ RunTime:0.049718s ]
+SQL: SELECT * FROM `ai9me_reply_info` WHERE ( `infotype` = 'Dining' ) AND ( `token` = '17' ) LIMIT 1   [ RunTime:0.049978s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.502394s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.503008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165039s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.668100s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.668643s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.669173s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.669572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002100s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.670277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2014-01-04T14:56:36+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049429s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048535s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 1 ) ORDER BY id asc  [ RunTime:0.048945s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.449560s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001055s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.450672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162423s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.613148s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.613685s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.614213s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.614607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002089s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.615317s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2014-01-04T14:56:44+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.038903s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.052580s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.036600s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.034308s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.398157s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.398864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210115s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.609031s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.609559s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.610089s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.610493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002085s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.611202s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2014-01-04T14:56:48+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=my&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.038656s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.041977s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cart` [ RunTime:0.037549s ]
+SQL: SELECT * FROM `ai9me_product_cart` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) ORDER BY time DESC  [ RunTime:0.040967s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.407051s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000904s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 47 行.
+NOTIC: [8] Undefined index:  success D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 50 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.408009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.338205s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.746269s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.746969s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.747577s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.747972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002387s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.748762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2014-01-04T14:56:52+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Groupon&a=grouponIndex&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.035891s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.038056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `groupon` = 1 ) AND ( `endtime` > 1388818611 ) LIMIT 1   [ RunTime:0.035050s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `groupon` = 1 ) AND ( `endtime` > 1388818611 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.039197s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.404587s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001022s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\b304fa6c9115d9b03f828a71bf1dcfd4.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\b304fa6c9115d9b03f828a71bf1dcfd4.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\b304fa6c9115d9b03f828a71bf1dcfd4.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\b304fa6c9115d9b03f828a71bf1dcfd4.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\b304fa6c9115d9b03f828a71bf1dcfd4.php 第 47 行.
+NOTIC: [8] Undefined variable: isSearch D:\website\admin2\Conf\logs\Cache\Wap\b304fa6c9115d9b03f828a71bf1dcfd4.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.405671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027415s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.433137s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.433719s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.434293s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.434698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002192s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.435418s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2014-01-04T14:56:54+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.038343s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.039063s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.038316s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.347953s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.348578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190753s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.539376s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.539910s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.540456s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.541180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002587s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.542055s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2014-01-04T14:56:57+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.037239s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.036038s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.038173s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.034921s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.380557s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.381169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.250281s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.631506s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.632037s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.632597s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.632999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002169s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.633758s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2014-01-04T14:57:00+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.048155s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048389s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.053556s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.045787s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.500943s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.501666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136090s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.637808s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.638399s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.638934s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.639337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002156s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.640043s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2014-01-04T14:57:02+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=dining&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.038162s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.040416s ]
+SQL: SHOW COLUMNS FROM `ai9me_reply_info` [ RunTime:0.034897s ]
+SQL: SELECT * FROM `ai9me_reply_info` WHERE ( `infotype` = 'Dining' ) AND ( `token` = '17' ) LIMIT 1   [ RunTime:0.034501s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.383589s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.384195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198979s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.583228s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.583767s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.584297s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.584697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002096s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.585405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2014-01-04T14:57:05+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.048090s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.051179s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.050362s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.297772s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.764625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.765228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.201780s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.967062s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.967591s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.968183s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.968621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002251s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.969394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2014-01-04T14:57:07+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.038997s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037248s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.035522s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.349487s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.350095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.221300s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.571448s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.571989s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.572538s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.572931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002160s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.573695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2014-01-04T14:57:13+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=my&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.047508s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.046578s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cart` [ RunTime:0.048761s ]
+SQL: SELECT * FROM `ai9me_product_cart` WHERE ( `token` = '17' ) AND ( `wecha_id` = '4a' ) ORDER BY time DESC  [ RunTime:0.048315s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.504069s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 47 行.
+NOTIC: [8] Undefined index:  success D:\website\admin2\Conf\logs\Cache\Wap\81f9bafc80419f0851608eb956987e55.php 第 50 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.504675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160948s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.665676s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.666422s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.667036s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.667432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002439s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.668222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-01-04T14:57:29+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050062s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049044s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.048648s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.451390s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.451991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.378250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.830294s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.830839s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.831376s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.831774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002101s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.832486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2014-01-04T14:57:34+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.048844s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048368s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.049449s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.047270s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.496920s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000599s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\76e393a1b5f0be5eda998ae0d000f726.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.497571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.226885s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.724510s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.725050s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.725579s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.725986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002124s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.726714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2014-01-04T14:57:39+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=dining&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049909s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048559s ]
+SQL: SHOW COLUMNS FROM `ai9me_reply_info` [ RunTime:0.048966s ]
+SQL: SELECT * FROM `ai9me_reply_info` WHERE ( `infotype` = 'Dining' ) AND ( `token` = '17' ) LIMIT 1   [ RunTime:0.047899s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.499291s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.499895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202446s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.702393s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.702919s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.703449s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.703849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002105s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.704578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2014-01-04T14:57:43+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050049s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.047383s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.048702s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.448447s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000571s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.449071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.252582s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.701708s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.702328s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.702890s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.703297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002249s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.704043s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2014-01-04T14:57:46+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=dining&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.048105s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.047755s ]
+SQL: SHOW COLUMNS FROM `ai9me_reply_info` [ RunTime:0.046327s ]
+SQL: SELECT * FROM `ai9me_reply_info` WHERE ( `infotype` = 'Dining' ) AND ( `token` = '17' ) LIMIT 1   [ RunTime:0.047660s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.493359s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.493962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155504s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.649519s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.650037s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.650576s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.651017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002303s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.651932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2014-01-04T14:57:47+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.040736s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.039930s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 1 ) ORDER BY id asc  [ RunTime:0.035047s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.354469s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.355069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146871s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.501996s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.502534s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.503064s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.503469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002098s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.504178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2014-01-04T14:57:49+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.037903s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037569s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.037435s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.037173s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.378154s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.379153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.211244s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.590536s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.591391s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.592206s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.592964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003426s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.593955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2014-01-04T14:57:51+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=index&token=17&wecha_id=4a&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.038567s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.034213s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.037695s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = '17' ) LIMIT 1   [ RunTime:0.036302s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.374168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.374845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148764s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.523665s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.524424s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.525046s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.525484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002458s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.526207s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2014-01-04T15:23:49+08:00 ] 127.0.0.1 /admin2/index.php?g=User&m=Product&a=index&token=sdasfassfdasdfasadfsadfasdf&dining=1&wxgjuid=18&wxgjpwd=f1290186a5d0b1ceab27f4e77c0c5d68
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.038817s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=index&token=sdasfassfdasdfasadfsadfasdf&dining=1&wxgjuid=18&wxgjpwd=f1290186a5d0b1ceab27f4e77c0c5d68 HTTP/1.1
+','','127.0.0.1',null) [ RunTime:0.061968s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.050056s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `username` = '18' ) LIMIT 1   [ RunTime:0.036154s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.038383s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.037047s ]
+SQL: INSERT INTO `ai9me_users` (`money`,`gid`,`username`,`password`,`createtime`,`lasttime`,`status`,`viptime`) VALUES (100000,7,'18','f1290186a5d0b1ceab27f4e77c0c5d68',1388820229,1388820229,1,'1809964800') [ RunTime:0.037638s ]
+NOTIC: [8] Undefined index:  username D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.037973s ]
+SQL: INSERT INTO `ai9me_wxuser` (`wxname`,`wxid`,`weixin`,`headerpic`,`token`,`uid`,`tpltypeid`,`tpllistid`,`tplcontentid`,`tpltypename`,`tpllistname`,`tplcontentname`,`createtime`) VALUES ('18','18','18','./tpl/User/default/common/images/portrait.jpg','sdasfassfdasdfasadfsadfasdf',527,'1','1','1','ty_index','yl_list','ktv_content',1388820229) [ RunTime:0.036358s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.037448s ]
+SQL: INSERT INTO `ai9me_token_open` (`uid`,`token`,`queryname`) VALUES (527,'sdasfassfdasdfasadfsadfasdf','tianqi,qiushi,jishuan,langdu,jiankang,kuaidi,xiaohua,changtoushi,peiliao,liaotian,mengjian,yuyinfanyi,huoche,gongjiao,shenfenzheng,shouji,yinle,fujin,choujiang,taobao,userinfo,fanyi,api,suanming,baike,caipiao,choujiang,gua2,shouye,adma,huiyuanka,shenhe,geci,host_kev,diyform,shop,etuan,diymen_set,dx') [ RunTime:0.037008s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `username` = '18' ) LIMIT 1   [ RunTime:0.037088s ]
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.038545s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037677s ]
+SQL: UPDATE `ai9me_users` SET `lasttime`=1388820229,`lastip`='127.0.0.1' WHERE ( `id` = 527 ) [ RunTime:0.038369s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.039164s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.037483s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 527 ) LIMIT 1   [ RunTime:0.037167s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.038622s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `uid` = 527 ) LIMIT 1   [ RunTime:0.035306s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.035148s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) LIMIT 1   [ RunTime:0.036556s ]
+NOTIC: [8] Undefined index:  catid D:\website\admin2\AI9ME\Lib\Action\User\ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.037252s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037416s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.038035s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.035834s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.557584s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001494s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.559153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015911s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.575116s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.575946s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.576881s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.577588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003386s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.578587s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2014-01-04T15:23:53+08:00 ] 127.0.0.1 /admin2/index.php?g=User&m=Product&a=add&token=sdasfassfdasdfasadfsadfasdf&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.035892s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=add&token=sdasfassfdasdfasadfsadfasdf&dining=1 HTTP/1.1
+','','127.0.0.1','527') [ RunTime:0.059972s ]
+NOTIC: [8] Undefined index:  wxgjuid D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.037607s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037319s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.036978s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 527 ) LIMIT 1   [ RunTime:0.037215s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.038622s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `uid` = 527 ) LIMIT 1   [ RunTime:0.036522s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.036939s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) LIMIT 1   [ RunTime:0.036451s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037563s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 )  [ RunTime:0.037029s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.699316s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001178s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isUpdate D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 86 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 87 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 93 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 105 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 109 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 113 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 117 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 121 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.700547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013644s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.714244s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.714820s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.715445s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.715851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.716578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2014-01-04T15:24:13+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=cats&token=17&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.038522s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037641s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = '17' ) AND ( `dining` = 0 ) ORDER BY id asc  [ RunTime:0.037760s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.359172s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001231s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 47 行.
+NOTIC: [8] Undefined variable: parentid D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 52 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\fb05505e898fd69c3ae106722f715eaf.php 第 55 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.360501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185867s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.546428s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.547619s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.548630s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.549336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003839s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.550352s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2014-01-04T15:24:15+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=products&token=17&catid=99&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049443s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.050164s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `id` = 99 ) LIMIT 1   [ RunTime:0.048830s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 99 ) LIMIT 1   [ RunTime:0.049802s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 99 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.050056s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.555528s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 47 行.
+NOTIC: [8] Undefined variable: isSearch D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.556502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150448s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.707000s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.707591s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.708193s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.708596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002227s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.709310s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2014-01-04T15:24:17+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=products&token=17&catid=99&wecha_id=4a&order=salecount&method=ASC
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.037562s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.037933s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `id` = 99 ) LIMIT 1   [ RunTime:0.036946s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 99 ) LIMIT 1   [ RunTime:0.037666s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `catid` = 99 ) ORDER BY salecount ASC LIMIT 5   [ RunTime:0.073478s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.470282s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 47 行.
+NOTIC: [8] Undefined variable: isSearch D:\website\admin2\Conf\logs\Cache\Wap\65e40a066b2eec3896cfc6bc052d3e22.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.470928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.407663s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.878643s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.879231s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.879941s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.880346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002342s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.881071s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2014-01-04T15:24:19+08:00 ] 127.0.0.1 /admin2/index.php?g=Wap&m=Product&a=product&token=17&id=121&wecha_id=4a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.049119s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049550s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` = 121 ) LIMIT 1   [ RunTime:0.049762s ]
+SQL: SHOW COLUMNS FROM `ai9me_company` [ RunTime:0.048257s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_company` WHERE ( `token` = '17' ) AND ( `isbranch` = 1 ) LIMIT 1   [ RunTime:0.048595s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = '17' ) AND ( `id` <> '121' ) AND ( `groupon` <> 1 ) AND ( `dining` <> 1 ) LIMIT 0,5   [ RunTime:0.047053s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.604494s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000971s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 20 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 25 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 30 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 36 行.
+NOTIC: [8] Undefined variable: isDining D:\website\admin2\Conf\logs\Cache\Wap\6e76a42fba1746eaac70251ffabd7c95.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.605521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152640s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.758213s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.758782s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.759346s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.759738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002156s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.760453s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2014-01-04T15:25:06+08:00 ] 127.0.0.1 /admin2/index.php?g=User&m=Product&a=add&token=sdasfassfdasdfasadfsadfasdf&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.036479s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('POST /admin2/index.php?g=User&m=Product&a=add&token=sdasfassfdasdfasadfsadfasdf&dining=1 HTTP/1.1
+','8.2_asdf_96_1_45_55_ds_http://www.weixinguanjia.cn/ups/2013/08/1/14537b1ee9f188260bee0566bd5d09a3.jpg_<img src=\"http://www.weixinguanjia.cn/ups/2013/08/1/14537b1ee9f188260bee0566bd5d09a3.jpg\" alt=\"\" />_1__d9f7d900e51de591bcd3c30d6d525c27_d653b0c5a7b9d25cd577dc0ec4b73c66','127.0.0.1','527') [ RunTime:0.063675s ]
+NOTIC: [8] Undefined index:  wxgjuid D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.038183s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037414s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.037735s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 527 ) LIMIT 1   [ RunTime:0.037583s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.038077s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `uid` = 527 ) LIMIT 1   [ RunTime:0.037040s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.035148s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) LIMIT 1   [ RunTime:0.038148s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.037186s ]
+NOTIC: [8] Undefined index:  enddate D:\website\admin2\AI9ME\Lib\Model\ProductModel.class.php 第 17 行.
+SQL: INSERT INTO `ai9me_product` (`discount`,`name`,`catid`,`storeid`,`price`,`oprice`,`keyword`,`logourl`,`intro`,`dining`,`token`,`endtime`,`time`) VALUES (8.2,'asdf',96,1,45,55,'ds','http://www.weixinguanjia.cn/ups/2013/08/1/14537b1ee9f188260bee0566bd5d09a3.jpg','<img src="http://www.weixinguanjia.cn/ups/2013/08/1/14537b1ee9f188260bee0566bd5d09a3.jpg" alt="" />',1,'sdasfassfdasdfasadfsadfasdf',0,1388820306) [ RunTime:0.036336s ]
+SQL: SHOW COLUMNS FROM `ai9me_keyword` [ RunTime:0.037030s ]
+SQL: INSERT INTO `ai9me_keyword` (`pid`,`module`,`token`,`keyword`) VALUES (208,'Product','sdasfassfdasdfasadfsadfasdf','ds') [ RunTime:0.036438s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.805601s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.806745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025874s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.832676s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.833486s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.834392s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.835076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003362s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.836118s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2014-01-04T15:25:08+08:00 ] 127.0.0.1 /admin2/index.php?g=User&m=Product&a=index&token=sdasfassfdasdfasadfsadfasdf&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.049048s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=index&token=sdasfassfdasdfasadfsadfasdf&dining=1 HTTP/1.1
+','','127.0.0.1','527') [ RunTime:0.069316s ]
+NOTIC: [8] Undefined index:  wxgjuid D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.048002s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.047825s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.049167s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 527 ) LIMIT 1   [ RunTime:0.047416s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.055287s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `uid` = 527 ) LIMIT 1   [ RunTime:0.047592s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.046112s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) LIMIT 1   [ RunTime:0.048367s ]
+NOTIC: [8] Undefined index:  catid D:\website\admin2\AI9ME\Lib\Action\User\ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.048582s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.049316s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.046160s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.049767s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.010502s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000985s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.011545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014587s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.026186s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.026795s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.027370s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.027770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002210s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.028476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2014-01-04T15:25:13+08:00 ] 127.0.0.1 /admin2/index.php?g=User&m=Product&a=set&id=208&token=sdasfassfdasdfasadfsadfasdf&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.037410s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=set&id=208&token=sdasfassfdasdfasadfsadfasdf&dining=1 HTTP/1.1
+','','127.0.0.1','527') [ RunTime:0.055163s ]
+NOTIC: [8] Undefined index:  wxgjuid D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.038233s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037085s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.038264s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 527 ) LIMIT 1   [ RunTime:0.035349s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.038445s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `uid` = 527 ) LIMIT 1   [ RunTime:0.037621s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.037864s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) LIMIT 1   [ RunTime:0.038221s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.035056s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.035024s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` = 208 ) LIMIT 1   [ RunTime:0.034387s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 )  [ RunTime:0.036407s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `id` = 96 ) LIMIT 1   [ RunTime:0.037545s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 )  [ RunTime:0.072366s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.889437s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001104s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.890603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012792s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.903447s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.903992s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.904578s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.904978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.905712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2014-01-04T15:44:38+08:00 ] 127.0.0.1 /admin2/index.php?g=User&m=Product&a=index&token=sdasfassfdasdfasadfsadfasdf&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.036450s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=index&token=sdasfassfdasdfasadfsadfasdf&dining=1 HTTP/1.1
+','','127.0.0.1','527') [ RunTime:0.068402s ]
+NOTIC: [8] Undefined index:  wxgjuid D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.038401s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.036675s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.037751s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 527 ) LIMIT 1   [ RunTime:0.037442s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.038935s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `uid` = 527 ) LIMIT 1   [ RunTime:0.036033s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.037371s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) LIMIT 1   [ RunTime:0.036238s ]
+NOTIC: [8] Undefined index:  catid D:\website\admin2\AI9ME\Lib\Action\User\ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.036939s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.036811s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.036277s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.037658s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.800144s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001266s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.801467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020430s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.821951s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.822831s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.824042s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.825137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004692s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.826738s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2014-01-04T15:44:42+08:00 ] 127.0.0.1 /admin2/index.php?g=User&m=Product&a=add&token=sdasfassfdasdfasadfsadfasdf&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.037679s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=add&token=sdasfassfdasdfasadfsadfasdf&dining=1 HTTP/1.1
+','','127.0.0.1','527') [ RunTime:0.070665s ]
+NOTIC: [8] Undefined index:  wxgjuid D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.036349s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037577s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.040805s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 527 ) LIMIT 1   [ RunTime:0.034756s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.038407s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `uid` = 527 ) LIMIT 1   [ RunTime:0.034494s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.035270s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) LIMIT 1   [ RunTime:0.035170s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.036703s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 )  [ RunTime:0.034821s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.731176s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isUpdate D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 86 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 87 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 93 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 105 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 109 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 113 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 117 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 121 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.732303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012595s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.744950s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.745583s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.746169s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.746579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.747300s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2014-01-04T15:44:46+08:00 ] 127.0.0.1 /admin2/index.php?g=User&m=Product&a=index&token=sdasfassfdasdfasadfsadfasdf&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.052206s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=index&token=sdasfassfdasdfasadfsadfasdf&dining=1 HTTP/1.1
+','','127.0.0.1','527') [ RunTime:0.083765s ]
+NOTIC: [8] Undefined index:  wxgjuid D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.049245s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.045960s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.048563s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 527 ) LIMIT 1   [ RunTime:0.049111s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.049664s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `uid` = 527 ) LIMIT 1   [ RunTime:0.049638s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.050675s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) LIMIT 1   [ RunTime:0.046471s ]
+NOTIC: [8] Undefined index:  catid D:\website\admin2\AI9ME\Lib\Action\User\ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050460s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048357s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.047307s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.050162s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.035104s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.035724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013856s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.049630s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.050203s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.050790s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.051211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002211s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.051925s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2014-01-04T15:44:49+08:00 ] 127.0.0.1 /admin2/index.php?g=User&m=Product&a=set&id=208&token=sdasfassfdasdfasadfsadfasdf&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.049192s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=set&id=208&token=sdasfassfdasdfasadfsadfasdf&dining=1 HTTP/1.1
+','','127.0.0.1','527') [ RunTime:0.078347s ]
+NOTIC: [8] Undefined index:  wxgjuid D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.049627s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.047996s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.053107s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 527 ) LIMIT 1   [ RunTime:0.049259s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.049685s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `uid` = 527 ) LIMIT 1   [ RunTime:0.048203s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.049124s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) LIMIT 1   [ RunTime:0.047293s ]
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.050490s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.048396s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `id` = 208 ) LIMIT 1   [ RunTime:0.047310s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 )  [ RunTime:0.046870s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `id` = 96 ) LIMIT 1   [ RunTime:0.048490s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 )  [ RunTime:0.099225s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.172965s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000558s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.173576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012261s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.185890s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.186423s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.187003s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.187405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002175s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.188146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2014-01-04T15:44:57+08:00 ] 127.0.0.1 /admin2/index.php?g=User&m=Product&a=index&token=sdasfassfdasdfasadfsadfasdf&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.037956s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=index&token=sdasfassfdasdfasadfsadfasdf&dining=1 HTTP/1.1
+','','127.0.0.1','527') [ RunTime:0.059510s ]
+NOTIC: [8] Undefined index:  wxgjuid D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.036790s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.036967s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.035624s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 527 ) LIMIT 1   [ RunTime:0.038406s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.038036s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `uid` = 527 ) LIMIT 1   [ RunTime:0.037838s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.036909s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) LIMIT 1   [ RunTime:0.034357s ]
+NOTIC: [8] Undefined index:  catid D:\website\admin2\AI9ME\Lib\Action\User\ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ai9me_product` [ RunTime:0.038795s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.036433s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ai9me_product` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.047864s ]
+SQL: SELECT * FROM `ai9me_product` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.035503s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.802923s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001279s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.804265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016641s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.820961s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.821882s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.822743s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.823437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003409s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.824452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2014-01-04T15:45:22+08:00 ] 127.0.0.1 /admin2/index.php?g=User&m=Product&a=add&token=sdasfassfdasdfasadfsadfasdf&dining=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\website\admin2\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_qequest_log` [ RunTime:0.034392s ]
+SQL: INSERT INTO `ai9me_user_qequest_log` (`host`,`parameter`,`ip`,`user_id`) VALUES ('GET /admin2/index.php?g=User&m=Product&a=add&token=sdasfassfdasdfasadfsadfasdf&dining=1 HTTP/1.1
+','','127.0.0.1','527') [ RunTime:0.064472s ]
+NOTIC: [8] Undefined index:  wxgjuid D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 6 行.
+NOTIC: [8] Undefined index:  wxgjpwd D:\website\admin2\AI9ME\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `ai9me_user_group` [ RunTime:0.036052s ]
+SQL: SELECT * FROM `ai9me_user_group` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037070s ]
+SQL: SHOW COLUMNS FROM `ai9me_users` [ RunTime:0.038874s ]
+SQL: SELECT * FROM `ai9me_users` WHERE ( `id` = 527 ) LIMIT 1   [ RunTime:0.034370s ]
+SQL: SHOW COLUMNS FROM `ai9me_wxuser` [ RunTime:0.035953s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic` FROM `ai9me_wxuser` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `uid` = 527 ) LIMIT 1   [ RunTime:0.036425s ]
+SQL: SHOW COLUMNS FROM `ai9me_token_open` [ RunTime:0.037146s ]
+SQL: SELECT `queryname` FROM `ai9me_token_open` WHERE ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) LIMIT 1   [ RunTime:0.036881s ]
+SQL: SHOW COLUMNS FROM `ai9me_product_cat` [ RunTime:0.034311s ]
+SQL: SELECT * FROM `ai9me_product_cat` WHERE ( `parentid` = 0 ) AND ( `token` = 'sdasfassfdasdfasadfsadfasdf' ) AND ( `dining` = 1 )  [ RunTime:0.037315s ]
+NOTIC: [8] Undefined index:  1 D:\website\admin2\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.702472s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: isUpdate D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 86 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 87 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 93 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 105 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 109 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 113 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 117 行.
+NOTIC: [8] Undefined variable: set D:\website\admin2\Conf\logs\Cache\User\21090f89b08855279e35dba09e7f3f2c.php 第 121 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.703207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013833s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.717095s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.717686s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.718259s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.718670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002211s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.719394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000750s ]
+

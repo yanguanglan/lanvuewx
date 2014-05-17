@@ -1,0 +1,60 @@
+11:42:58: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1112651059",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+11:47:40: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=2101334943",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+13:21:26: {
+"Ret": 400,
+"ErrMsg": "",
+"ShowVerifyCode": 0,
+"ErrCode": -4
+}
+13:21:40: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1345396529",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+15:43:18: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=740329677",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+18:22:10: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1401083034",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+18:22:12: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1401083034",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+19:25:06: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=1020257483",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+19:37:01: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=395785529",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
+20:37:26: {
+"Ret": 302,
+"ErrMsg": "/cgi-bin/home?t=home/index&lang=zh_CN&token=699761668",
+"ShowVerifyCode": 0,
+"ErrCode": 0
+}
