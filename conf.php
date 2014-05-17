@@ -53,7 +53,7 @@ public static $smscharset = "utf8"; //文件编码
 
 	/**系统模式~开发模式和生产模式的区别,正式部署后一定要改为:false*/
 
-	public static $is_developing = false;
+	public static $is_developing = true;
 
 	/**数据库日志~是否需要记录操作数据库的SQL日志默认:false,日志地址:yyuc/log/db*/
 
