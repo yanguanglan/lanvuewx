@@ -121,7 +121,7 @@ class UserAction extends BaseAction{
 	}
 	public  function myconnect()
 	{
-		$con = mysql_connect("localhost","root","weixin-app.taobao.com");
+		$con = mysql_connect("qiwur002.mysql.rds.aliyuncs.com","dbd1p6q1r0t938v3","432916mysql");
 		mysql_query("set names 'utf8'");
 		if (!$con)
 		{
